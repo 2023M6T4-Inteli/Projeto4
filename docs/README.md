@@ -4,7 +4,9 @@ Descrição sucinta do projeto, com descrição do problema, do objetivo e da so
 
 ## (Sprint 1) Entendimento do Negócio
 
-Preencher conforme a descrição do artefato na Adalove.
+### **Matriz de Avaliação de Valor (Oceano Azul)**
+
+**A matriz é utilizada para visualizar, a partir de demais players do mercado, possibilidades a serem exploradas e que podem criar vantagem competitiva. Dessa forma, foram analisados os seguintes aspectos: praticidade, usabilidade, métricas gerias e por post, métricas comparativas com outras contas, agendamento de post, métricas comparativas por post, preço e visualização em relatório. Tais players foram analisados em comparação com o AdTrack: mLabs, Instagram Analytics e Iconsquare.**
 
 ## (Sprint 1) Entendimento da Experiência do Usuário
 
