@@ -4,19 +4,20 @@ Descrição sucinta do projeto, com descrição do problema, do objetivo e da so
 
 ## (Sprint 1) Entendimento do Negócio
 
-Preencher conforme a descrição do artefato na Adalove.
-<h3> 4 - Análise financeira do projeto </h3> 
-Com base em entrevista com o parceiro do projeto, o banco BTG PACTUAL tem previsto que caso fosse desenvolver internamente tal projeto, o investimento médio seria em volta de R$ 250 Mil a R$ 300 Mil.
-Tal cifra de investimento foi fornecida pelos responsáveis técnicos da empresa, isto estimando que seriam necessários em torno de 3 desenvolvedores plenos, em média 6 meses de desenvolvimento e toda a infraestrutura de cloud necessária para colocar em produção o projeto. 
+### [**Matriz de Avaliação de Valor (Oceano Azul)**](https://docs.google.com/spreadsheets/d/1efPgxxEptiqPRB1AfTgmY_iF861oDFa0/edit?usp=sharing&ouid=102062215505800350720&rtpof=true&sd=true)
 
-Devido ao fato de ser um projeto interno que visa entender melhor as reações do público em relação as campanhas de ativação de marketing. Assim, não há geração de caixa direto. 
+A matriz é utilizada para visualizar, a partir de demais players do mercado, possibilidades a serem exploradas e que podem criar vantagem competitiva. Dessa forma, foram analisados os seguintes aspectos: praticidade, usabilidade, métricas gerias e por post, métricas comparativas com outras contas, agendamento de post, métricas comparativas por post, preço e visualização em relatório. Tais players foram analisados em comparação com o AdTrack: mLabs, Instagram Analytics e Iconsquare.
+
+Portanto, é possível concluir tais aspectos:
+
+1.  Reduzir: entendendo que o produto desenvolvido é de uso interno e exclusivo da empresa BTG Pactual, não foi indentificado nenhum ponto a ser reduzido;
+2.  Eliminar: seguindo o mesmo raciocínio do tópico “Reduzir”, não foi identificado nenhum ponto para eliminar;
+3.  Aumentar: visto o Iconsquare, os relatórios podem ser mais aprofundados, aumentando esse aspecto do produto, oferecendo mais insights ao cliente;
+4.  Criar: procurando ter um produto mais completo e que dispense o uso de demais ferramentas, é possível criar as métricas comparativas com outras contas, comparando posts do cliente com de demais perfis semelhantes, o sentimento gerado e então obter ainda mais insights.
 
 ## (Sprint 1) Entendimento da Experiência do Usuário
 
 Preencher conforme a descrição do artefato na Adalove.
-
-
-
 
 ## (Sprint 2) Modelo de Bag of Words (IPYNB)
 
