@@ -18,7 +18,9 @@
 
 ## 📝 Descrição
 
-Inserir a descrição do projeto.
+O BTG Pactual é o maior banco de investimentos da América Latina e, portanto, possui um grande departamento de marketing. Conhecido por seguir as tendências contemporâneas, o banco é altamente engajado no marketing digital, em que, só no Instagram, conta com 548mil seguidores em sua principal conta (@btgpactual).
+
+Portanto, para compreender melhor a receptividade de suas campanhas e os insights a partir do comportamento de seus clientes, o projeto utiliza Processamento de Linguagem Natural para realizar a análise dos comentários nos posts do Instagram do BTG Pactual, categorizando cada campanha como positiva, neutra ou negativa, quais os sentimentos gerados entre os usuários e as palavras mais recorrentes nas postagens.
 
 ## 📁 Estrutura de pastas
 
