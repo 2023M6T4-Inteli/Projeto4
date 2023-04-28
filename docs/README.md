@@ -2,9 +2,9 @@
 
 Descrição sucinta do projeto, com descrição do problema, do objetivo e da solução em linhas gerais.
 
-O desafio do BTG Pactual é fazer uma análise de sentimentos nas suas postagens do Instagram, visando entender se a visão do público sobre determinadas campanhas de marketing é boa ou ruim. 
-Assim com o AdTrack visamos classificar esses comentários em bons, neutros ou ruins com base em um modelo de processamento de linguagem natural (NLP). 
-De tal modo que seja possível tomar decisões a respeito das campanhas de forma mais assertivas. 
+O desafio do BTG Pactual é fazer uma análise de sentimentos nas suas postagens do Instagram, visando entender se a visão do público sobre determinadas campanhas de marketing é boa ou ruim.  
+Assim com o AdTrack visamos classificar esses comentários em bons, neutros ou ruins com base em um modelo de processamento de linguagem natural (NLP).  
+De tal modo que seja possível tomar decisões a respeito das campanhas de forma mais assertivas.
 
 ## (Sprint 1) Entendimento do Negócio
 
@@ -13,13 +13,15 @@ De tal modo que seja possível tomar decisões a respeito das campanhas de forma
 **A matriz é utilizada para visualizar, a partir de demais players do mercado, possibilidades a serem exploradas e que podem criar vantagem competitiva. Dessa forma, foram analisados os seguintes aspectos: praticidade, usabilidade, métricas gerias e por post, métricas comparativas com outras contas, agendamento de post, métricas comparativas por post, preço e visualização em relatório. Tais players foram analisados em comparação com o AdTrack: mLabs, Instagram Analytics e Iconsquare.**
 
 ### **Análise financeira do projeto**
-**Com base em entrevista com o parceiro do projeto, o banco BTG Pactual previu que, caso o projeto fosse desenvolvido internamente, o investimento médio seria de cerca de R$ 250 mil a R$ 300 mil. Essa cifra de investimento foi fornecida pelos responsáveis técnicos da empresa, os quais estimaram que seriam necessários cerca de 3 desenvolvedores plenos, em média 6 meses de desenvolvimento e toda a infraestrutura de cloud necessária para colocar o projeto em produção.
-Devido ao fato de ser um projeto interno que visa entender melhor as reações do público em relação às campanhas de ativação de marketing, não haverá geração de caixa direta.**
 
-### **Personas** ##
-<br><br>
+**Com base em entrevista com o parceiro do projeto, o banco BTG Pactual previu que, caso o projeto fosse desenvolvido internamente, o investimento médio seria de cerca de R$ 250 mil a R$ 300 mil. Essa cifra de investimento foi fornecida pelos responsáveis técnicos da empresa, os quais estimaram que seriam necessários cerca de 3 desenvolvedores plenos, em média 6 meses de desenvolvimento e toda a infraestrutura de cloud necessária para colocar o projeto em produção.**  
+**Devido ao fato de ser um projeto interno que visa entender melhor as reações do público em relação às campanhas de ativação de marketing, não haverá geração de caixa direta.**
 
-<img src="https://pbs.twimg.com/media/FpFFvVwXEAAIyUo.jpg" alt="descrição da imagem" width="200" height="200">
+### **Personas**
+
+
+
+![descrição da imagem](https://pbs.twimg.com/media/FpFFvVwXEAAIyUo.jpg)
 
 ### **Maria**
 
@@ -46,10 +48,9 @@ Devido ao fato de ser um projeto interno que visa entender melhor as reações d
 
 - **Dificuldades na coleta de dados:** Maria fica frustrada com dificuldades de classificar os dados relevantes para suas análises de marketing, podendo prejudicar a eficácia de suas campanhas.
 - **Dificuldades na interpretação de dados:** Maria tem dificuldade em interpretar dados e informações de mercado, o que pode afetar negativamente a capacidade do banco de tomar decisões de marketing informadas. Devido a subjetividade de alguns comentarios , sendo filtro de dados e classificação do mesmo.
-<br><br>
-<br><br>
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHJ1SlXy1drJGi5cGDEaePDG0uGZjAciCPPw&usqp=CAU" width="200" height="200">
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHJ1SlXy1drJGi5cGDEaePDG0uGZjAciCPPw&usqp=CAU)
 
 ### **Gabriel**
 
@@ -77,12 +78,37 @@ Devido ao fato de ser um projeto interno que visa entender melhor as reações d
 - Avaliar performance de campanhas para tomadas de decisões mais rápidas, reduzindo custo e direcionando a campanha para a melhor eficiência. Gabriel pode enfrentar frustrações em avaliar a performance de campanhas de produto para tomar decisões mais rápidas e eficazes.Ainda assim carlos pode enfrentar problemas se os dados não corresponderem a nova campanha. Isso ocorre quando as  métricas não são claras e confiáveis para avaliar a receptividade dos produtos
 - Gerar campanhas baseadas nos interesses dos consumidores: Gabriel pode enfrentar desafios em gerar novos produtos baseadas nos interesses dos consumidores. Isso pode ser difícil se não houver informações precisas sobre os interesses e tendências dos clientes ou se as informações estiverem desatualizadas
 
-
 ## (Sprint 1) Entendimento da Experiência do Usuário
 
-Preencher conforme a descrição do artefato na Adalove.
+## **User Story**
 
-## (Sprint 2) Modelo de Bag of Words (IPYNB)
+
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 1</td></tr><tr><td><strong>Épico</strong></td><td>Análise de sentimento dos comentários em postagens do BTG Pactual no Instagram.&nbsp;</td></tr><tr><td><strong>Persona</strong></td><td>Analista de Marketing do BTG Pactual&nbsp;</td></tr><tr><td><strong>História</strong></td><td><p>Eu, como usuário do sistema, quero uma ferramenta de análise de sentimento que possa identificar automaticamente se os comentários em postagens do BTG Pactual são positivos, negativos ou neutros, para que eu possa entender como os clientes estão reagindo às postagens do banco.</p><p><br>&nbsp;</p></td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><strong>Critério 1:&nbsp;</strong>A ferramenta deve ser capaz de identificar automaticamente se um comentário é positivo, negativo ou neutro.&nbsp;</td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1:&nbsp;</strong>A ferramenta identifica corretamente um comentário positivo.&nbsp;</p><ul><li>Conseguiu: correto.&nbsp;</li><li>Não conseguiu: errado, essa funcionalidade precisa ser corrigida.</li></ul><p><strong>Teste 2 para o critério 1:&nbsp;</strong>A ferramenta precisa ter uma acurácia de, no mínimo, 80%.&nbsp;</p><ul><li>Conseguiu: correto, o modelo tem uma acurácia satisfatória.&nbsp;</li><li>Não conseguiu: errado, essa funcionalidade precisa ser corrigida.</li></ul></td></tr></tbody></table>
+
+
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 2</td></tr><tr><td><strong>Épico</strong></td><td>Análise de sentimento dos comentários em postagens do BTG Pactual no Instagram.</td></tr><tr><td><strong>Persona</strong></td><td>Analista de Marketing do BTG Pactual&nbsp;</td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero ter acesso a uma interface de fácil utilização que me permita visualizar os resultados da análise de sentimento de forma clara e compreensível, como gráficos ou relatórios, para que eu possa interpretar os dados facilmente e tomar decisões informadas de marketing.&nbsp;</td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><strong>Critério 1:&nbsp;</strong>A interface deve ser fácil de usar e permitir visualizar os resultados da análise de sentimento de forma clara e compreensível, como gráficos ou relatórios.</td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1:&nbsp;</strong>A interface deve ter uma navegação intuitiva e fácil de usar.&nbsp;</p><ul><li>Conseguiu: correto, a interface é fácil de usar e permite visualizar os resultados de forma clara.&nbsp;</li><li>Não conseguiu: errado, a interface precisa ser melhorada para facilitar a navegação e visualização dos resultados.&nbsp;</li></ul><p><br>&nbsp;</p><p><strong>Teste 2 para o critério 1:&nbsp;</strong>Os gráficos e relatórios devem ser compreensíveis e mostrar os resultados da análise de sentimento de forma clara.&nbsp;</p><ul><li>Conseguiu: correto, os gráficos e relatórios mostram os resultados da análise de sentimento de forma clara e compreensível.&nbsp;</li><li>Não conseguiu: errado, os gráficos e relatórios precisam ser melhorados para mostrar os resultados de forma clara e compreensível.</li></ul></td></tr></tbody></table>
+
+
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 3</td></tr><tr><td><strong>Épico</strong></td><td>Análise de Sentimento em Tempo Real para Postagens do BTG Pactual</td></tr><tr><td><strong>Persona</strong></td><td>Analista de Marketing do BTG Pactual&nbsp;</td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero que a ferramenta seja capaz de processar grandes volumes de comentários em tempo real, para que eu possa obter insights em tempo hábil sobre a percepção dos clientes em relação às postagens do BTG Pactual.&nbsp;</td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><strong>Critério 1:&nbsp;</strong>A ferramenta deve ser capaz de processar pelo menos 200 comentários por hora em tempo real, sem atrasos significativos.&nbsp;</td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1:</strong> Inserir 200 comentários fictícios em um teste da ferramenta e avaliar se ela é capaz de processá-los em um período de 2 horas, sem atrasos significativos.&nbsp;</p><ul><li>Conseguiu: correto, a ferramenta é capaz de processar pelo menos 100 comentários por hora em tempo real.&nbsp;</li><li>Não conseguiu: errado, a ferramenta não é capaz de processar e será preciso otimizar.</li></ul></td></tr></tbody></table>
+
+
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 4</td></tr><tr><td><strong>Épico</strong></td><td>Melhorar a análise de dados do BTG Pactual</td></tr><tr><td><strong>Persona</strong></td><td>Gerente de Produtos do BTG Pactual&nbsp;</td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero que a ferramenta seja capaz de identificar palavras-chave relevantes nos comentários dos clientes, para que eu possa entender os principais tópicos de discussão e identificar tendências emergentes.</td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><strong>Critério 1:&nbsp;</strong>A ferramenta deve ser capaz de identificar palavras-chave relevantes em cada comentário.&nbsp;<br><strong>Critério 2:&nbsp;</strong>As palavras-chave identificadas pela ferramenta devem ser precisas e relevantes para os tópicos de discussão.</td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1:&nbsp;</strong>A ferramenta é testada com um conjunto de 10 comentários, e a identificação de pelo menos 5 palavras-chave relevantes é verificada.&nbsp;</p><ul><li>Conseguiu: correto, a ferramenta identificou pelo menos 5 palavras-chave em todos os 10 comentários.&nbsp;</li><li>Não conseguiu: errado, a ferramenta não identificou e será preciso otimizar.&nbsp;&nbsp;</li></ul><p><br>&nbsp;</p><p><strong>Teste 1 para o critério 2:</strong> A ferramenta é testada com um conjunto de 10 comentários, e há precisão e relevância das palavras-chave identificadas.&nbsp;</p><ul><li>Conseguiu: correto, todas as palavras-chave identificadas são precisas e relevantes.</li><li>Não conseguiu: errado, pelo menos uma das palavras-chave identificadas é imprecisa ou irrelevante.&nbsp;</li></ul></td></tr></tbody></table>
+
+
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 5&nbsp;<i>(Nice to Have)</i></td></tr><tr><td><strong>Épico</strong></td><td>Melhorar a acessibilidade e usabilidade do BTG Pactual</td></tr><tr><td><strong>Persona</strong></td><td>Gerente de Produtos do BTG Pactual&nbsp;</td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero que a interface seja responsiva e amigável para uso em dispositivos móveis, para que eu possa acessar e utilizar a ferramenta em qualquer lugar.</td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><p><strong>Critério 1:&nbsp;</strong>A interface deve ser responsiva e se adaptar a diferentes tamanhos de tela e dispositivos móveis.&nbsp;</p><p><strong>Critério 2:</strong> A interface deve ser amigável e intuitiva para o uso em diferentes dispositivos.</p></td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1:</strong> A interface é testada em diferentes dispositivos (por exemplo, smartphones, notebooks e tablets).</p><ul><li>Conseguiu: correto, a interface se adapta de forma responsiva a todos os tamanhos de tela e dispositivos testados.&nbsp;</li><li>Não conseguiu: errado, a interface não se adapta de forma responsiva e será preciso otimizar.&nbsp;</li></ul><p><br>&nbsp;</p><p><strong>Teste 1 para o critério 2:&nbsp;</strong>Vários usuários diferentes testam a interface e fornecem feedback sobre sua amigabilidade e intuitividade.&nbsp;</p><ul><li>Conseguiu: correto, a interface é considerada amigável e intuitiva pela maioria dos usuários que testaram.&nbsp;</li><li>Não conseguiu: errado, pelo menos três usuários consideram a interface pouco amigável ou não intuitiva.</li></ul></td></tr></tbody></table>
+
+
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 6&nbsp;<i>(Nice to Have)</i></td></tr><tr><td><strong>Épico</strong></td><td>Melhorar a análise de dados do BTG Pactual</td></tr><tr><td><strong>Persona</strong></td><td>Gerente de Produtos do BTG Pactual&nbsp;</td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero que a interface seja responsiva e amigável para uso em dispositivos móveis, para que eu possa acessar e utilizar a ferramenta em qualquer lugar.</td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><p><strong>Critério 1:&nbsp;</strong>A ferramenta deve permitir a seleção e comparação de pelo menos duas campanhas diferentes.&nbsp;</p><p><strong>Critério 2:</strong> A ferramenta deve apresentar a análise de sentimento de cada campanha de forma clara e fácil de entender.&nbsp;</p><p><strong>Critério 3:&nbsp;</strong>A ferramenta deve permitir a visualização da comparação entre as análises de sentimento de cada campanha.</p></td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1:&nbsp;</strong>O usuário tenta selecionar e comparar pelo menos duas campanhas diferentes.&nbsp;</p><ul><li>Conseguiu: correto, a ferramenta permite comparar pelo menos duas campanhas diferentes.&nbsp;</li><li>Não conseguiu: errado, a ferramenta não permite a comparação e será necessário aprimorar.&nbsp;</li></ul><p><strong>Teste 1 para o critério 2:&nbsp;</strong>O usuário examina as análises de sentimento de cada campanha selecionada.&nbsp;</p><ul><li>Conseguiu: correto, a ferramenta apresenta as análises de sentimento de cada campanha de forma clara e fácil de entender.&nbsp;</li><li>Não conseguiu: errado, a ferramenta não apresenta as análises de sentimento de forma clara ou fácil de entender.&nbsp;</li></ul><p><strong>Teste 1 para o critério 3:&nbsp;</strong>O usuário examina a visualização da comparação entre as análises de sentimento de cada campanha.&nbsp;</p><ul><li>Conseguiu: correto, a ferramenta permite visualizar a comparação entre as análises de sentimento de cada campanha de forma clara e fácil de entender.&nbsp;</li><li>Não conseguiu: errado, a ferramenta não permite visualizar a comparação entre as análises de sentimento de forma clara ou fácil de entender.</li></ul></td></tr></tbody></table>
+
+##
+
+(Sprint 2) Modelo de Bag of Words (IPYNB)
 
 Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
