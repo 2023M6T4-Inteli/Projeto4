@@ -27,7 +27,8 @@ O Canvas de Proposta de Valor é uma ferramenta visual que será útil para o pr
 
 **A matriz de riscos é uma ferramenta que permite uma análise ampla das ameaças e oportunidades de um projeto. Com ela, podemos identificar as ameaças com maiores probabilidades e impactos em nosso projeto, além de identificar as oportunidades existentes no desenvolvimento. Sua principal função é auxiliar a empresa a tomar decisões com base nos impactos e na probabilidade desses riscos ocorrerem. A seguir, apresentamos a lista de todos os riscos (ameaças e oportunidades) validados pela equipe.**
 
-![descrição da imagem](../docs/image/matriz.jpg)
+<img src="image/matriz.jpg" width="500">
+
 
 
 ### **Personas**
