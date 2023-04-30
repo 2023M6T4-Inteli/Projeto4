@@ -1,18 +1,171 @@
 # Documento Principal do Projeto
 
-Descrição sucinta do projeto, com descrição do problema, do objetivo e da solução em linhas gerais.
+O desafio do BTG Pactual é fazer uma análise de sentimentos nas suas postagens do Instagrama partir dos comentários, visando entender se a visão do público sobre determinadas campanhas de marketing é positiva, negativa ou neutra.
+Assim, com o AdTrack, visamos classificar esses comentários em bons, neutros ou ruins, e extrair as palavras-chave destes, com base em um modelo de processamento de linguagem natural (NLP), de tal modo que seja possível tomar decisões a respeito das campanhas de marketing e acerca dos produtos e serviços do banco de forma mais assertiva.
 
 ## (Sprint 1) Entendimento do Negócio
 
-Preencher conforme a descrição do artefato na Adalove.
+### **Matriz de Avaliação de Valor (Oceano Azul)**
+
+A matriz é utilizada para visualizar, a partir de demais players do mercado, possibilidades a serem exploradas e que podem criar vantagem competitiva. Dessa forma, foram analisados os seguintes aspectos: praticidade, usabilidade, métricas gerias e por post, métricas comparativas com outras contas, agendamento de post, métricas comparativas por post, preço e visualização em relatório. Tais players foram analisados em comparação com o AdTrack: mLabs, Instagram Analytics e Iconsquare.
+
+### **Análise financeira do projeto**
+
+Com base em entrevista com o parceiro do projeto, o banco BTG Pactual previu que, caso o projeto fosse desenvolvido internamente, o investimento médio seria de cerca de R$ 250 mil a R$ 300 mil. Essa cifra de investimento foi fornecida pelos responsáveis técnicos da empresa, os quais estimaram que seriam necessários cerca de 3 desenvolvedores plenos, em média 6 meses de desenvolvimento e toda a infraestrutura de cloud necessária para colocar o projeto em produção.
+Devido ao fato de ser um projeto interno que visa entender melhor as reações do público em relação às campanhas de ativação de marketing, não haverá geração de caixa direta.
+
+### **Canvas de Proposta de Valor**
+
+O Canvas de Proposta de Valor é uma ferramenta visual que será útil para o projeto, pois cria e comunica de forma clara e concisa o valor que será gerado por ele. Ele consiste em um modelo de negócio dividido em seis blocos, que descrevem as principais características da proposta de valor, incluindo os problemas que motivaram o projeto, os benefícios que serão oferecidos, as soluções que propõe e a forma como se diferencia da concorrência. O Canvas de Proposta de Valor é uma ferramenta útil para entender o mercado, testar ideias e ajustar a estratégia de negócio.
+
+<img width="787" alt="cvp3" src="https://user-images.githubusercontent.com/99191485/235315268-22b1710d-3f72-48ab-996c-c474cffd4d09.png">
+
+Abaixo estão descritos os itens em cada segmento:
+
+**Perfil do consumidor:**
+
+    1) Tarefas do cliente:
+
+* Criar campanhas de marketing que atendam aos desejos dos clientes;
+* Melhorar os produtos e serviços dos clientes;
+* Criar campanhas de marketing que captem novos clientes;
+* Criar uma percepção positiva da empresa para o público e
+* Criar novos produtos de acordo com os desejos dos clientes.
+
+  2) Dores do cliente:
+* Dificuldade na criação de campanhas de marketing assertivas;
+* Criação de produtos que não atendem às necessidades do cliente;
+* Escassez no tratamento aos dados fornecidos pelos cliente e
+* Irresponsabilidade na interação virtual na resolução de problemas dos clientes.
+
+  3) Ganhos dos clientes:
+* insights da percepção dos clientes sobre a empresa para criação de novos produtos;
+* melhoria da satisfação do cliente com as campanhas;
+* facilidade na tomada de decisões acerca de produtos e campanhas de marketing;
+* agilidade na mitigação de problemas reportados pelos clientes e
+* orientação para campanhas de marketing através de dados
+
+**Proposta de valor:**
+
+    1) Produtos e serviços:
+
+* Interface web com relatórios sobre o Instagram da empresa e
+* Análise de sentimentos, receptividade das campanhas e palavras chaves comentadas.
+
+  2) Aliviadores de dor:
+* Interface visual gráfica das análises;
+* Fornece métricas de sentimento gerado, receptividade da campanha e palavras chave e
+* Analisa os dados do Instagram em tempo real.
+
+  3) Ganhos:
+* Análise em tempo real de dados de rede social;
+* Visualização da impressão dos clientes nas campanhas de marketing e
+* Conhecimento detalhado sobre os dados e os sentimentos do cliente.
+
+---
+
+### **Matriz de Riscos**
+
+A matriz de riscos é uma ferramenta que permite uma análise ampla das ameaças e oportunidades de um projeto. Com ela, podemos identificar as ameaças com maiores probabilidades e impactos em nosso projeto, além de identificar as oportunidades existentes no desenvolvimento. Sua principal função é auxiliar a empresa a tomar decisões com base nos impactos e na probabilidade desses riscos ocorrerem. A seguir, apresentamos a lista de todos os riscos (ameaças e oportunidades) validados pela equipe:
+
+<img src="image/README/matriz.jpg" width="800">
+
+##### Riscos:
+
+1) Acurácia pouco satisfatória, levando em consideração a subjetividade dos sentimentos humanos nos comentários - o risco de acontecer é alto, pois é algo que acontece frequentemente nos algoritmos de processamento de linguagem natural, já que ele é extremamente influenciado pela língua (português) e moderado, já que existem outros riscos considerados que são mais altos;
+2) Tempo de resposta de modelo oscilado: considerando que o modelo utilizará dados em tempo real, o tempo de resposta do modelo pode variar e causar espera e insatisfação do usuário: o risco é alto, visto que o processamento em dados real depende da quantidade deles e do quão complexos estarão para passarem pela limpeza e tratamento, o que influencia diretamente no tempo de resposta;
+3) Falta de precisão: A precisão da análise de sentimento pode ser afetada pela qualidade dos dados, bem como pela eficácia dos algoritmos de análise. Se a precisão da solução for baixa, a confiança dos clientes pode ser afetada: o risco é considerado baixo, pois os dados serão tratados, o que diminui a possibilidade de interferência da precisão pela qualidade dos dados.
+4) Expectativas mal definidas: Se as expectativas forem claramente definidas, pode haver mal-entendidos sobre o escopo do projeto, o tempo de entrega e o que é esperado do produto final: por ainda estarmos na primeira sprint e pela falta de recebimento dos dados, a probabilidade de as expectativas do que pretendemos entregar como solução e o que é esperado pelo parceiro podem ter sido mal compreendidas, mas com o seguimento do projeto, o recebimento dos dados e o maior contato com os parceiros, o risco tende a diminuir.
+5) Interfaces mal projetadas: O design da interface do usuário é crucial para garantir que os usuários possam interagir com o projeto de maneira intuitiva e eficaz. Interfaces mal projetadas podem dificultar o uso do projeto: por se tratar de uso de gráficos na interface e seu tempo de produção ser menor do que as demais partes do projeto, foi considerado um risco muito alto de acontecer, mas que pode ser contornado com uma comunicação efetiva com o parceiro e a prototipação do design antes de sua produção de fato.
+6) Dependência de bibliotecas de terceiros: O projeto de análise de sentimento pode depender de bibliotecas de terceiros para funcionar. Se essas bibliotecas estiverem desatualizadas ou forem descontinuadas, isso pode afetar a funcionalidade do projeto. Não é comum as bibliotecas serem descontinuadas, mas sim ter a adição de noas ferramentas ou melhorias, portanto apesar de ser uma ameaça, não enxergamos como alta.
+7) Mudanças nos requisitos: Se houver muitas mudanças nos requisitos durante o projeto, pode ser difícil finalizá-lo dentro do prazo estabelecido. Por ainda não termos a base de dados para analisar e somente 1 Sprint Review com o parceiro, os requisitos podem ter sido mal compreendidos, mas de fácil resolução dessa ameaça no decorrer dos encontros com o parceiro e a demonsrtração do que compreendemos e produzimos.
+
+##### Também forma identificadas Oportunidades:
+
+1. Mercado em crescimento: A análise de sentimento é uma área em crescimento, à medida que as empresas buscam entender melhor as opiniões e sentimentos de seus clientes nas redes sociais
+2. Melhoria contínua: A análise de sentimento é uma área em constante evolução, com novas técnicas e tecnologias surgindo regularmente, o que possibilita a maior precisão dos resultados e a eficiência do produto
+3. Criar novas formas de utilizar o projeto: dando seguimento ao projeto e criando um produto mais robusto, pode até funcionar como um SaaS ou uma vantagem competitiva de mercado
+4. Utilização de tecnologias de ponta: O seu projeto pode utilizar tecnologias de ponta, como inteligência artificial e aprendizado de máquina, para fornecer resultados precisos de análise de sentimento.
+5. Criação de Novos Produtos: Com base nos dados coletados pela sua solução de análise de sentimento, é possível identificar necessidades não atendidas pelos produtos existentes no mercado
+6. Obter insights dos produtos: é possível obter insights sobre os produtos e serviços existentes e entender os desejos do consumidor, disponibilizando novas ofertas.
+7. Possibilidade de colaboração: O projeto pode oferecer a possibilidade de colaboração com outras empresas e organizações que possam estar interessadas em análise de sentimento.
+8. Gerenciamento de Crises: A análise de sentimento pode ser utilizada para gerenciar crises de imagem de empresas, entendendo o que faz gerar sentimentos ruins e contornar a situação.
+9. Personalização: A sua solução de análise de sentimento pode ser personalizada para atender às necessidades específicas de diferentes setores, clientes e empresas do grupo parceiro.
+10. Análise de concorrência: A análise de sentimento pode ser utilizada para entender como a concorrência está sendo percebida pelos consumidores.
 
 ## (Sprint 1) Entendimento da Experiência do Usuário
 
-Preencher conforme a descrição do artefato na Adalove.
+### **Personas**
 
-## (Sprint 2) Modelo de Bag of Words (IPYNB)
+### **1) Maria**
 
-Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
+<img src="image/README/1682735110819.png" width="500">
+
+**Idade:** 30 anos
+
+**Ocupação:** Analista de marketing do BTG
+
+**DESCRIÇÃO:**
+
+- Formada em marketing e possui 10 anos de experiência no mercado
+- Trabalha na área de marketing do BTG
+
+**PERSONALIDADE:**
+
+- Curiosa e esta sempre em busca de novas informações e tendências de mercado para ajudar a tomar decisões informadas
+- Costuma buscar inovações e soluções através da tecnologia
+
+**OBJETIVOS:**
+
+- **Gerar campanhas baseadas nos interesses dos consumidores**: Maria acredita que o sucesso de uma campanha de marketing está em sua capacidade de se conectar com os interesses e necessidades dos consumidores. Por isso, ela se esforça para criar campanhas personalizadas e relevantes que gerem valor para os clientes do banco BTG
+- **Melhorar a atração e retenção de clientes**: Com base em suas análises, Maria trabalha em colaboração com sua equipe para desenvolver estratégias de marketing eficazes que atraiam novos clientes e mantenham os atuais satisfeitos e engajados.
+
+**FRUSTRAÇÃO:**
+
+- **Dificuldades na coleta de dados:** Maria fica frustrada com dificuldades de classificar os dados relevantes para suas análises de marketing, podendo prejudicar a eficácia de suas campanhas.
+- **Dificuldades na interpretação de dados:** Maria tem dificuldade em interpretar dados e informações de mercado, o que pode afetar negativamente a capacidade do banco de tomar decisões de marketing informadas. Devido a subjetividade de alguns comentarios , sendo filtro de dados e classificação do mesmo.
+
+### **2) Gabriel**
+
+<img src="image/README/1682735138126.png" width="500">
+
+**Idade:** 31 anos
+
+**Ocupação:** Gerente de produto do BTG
+
+**DESCRIÇÃO:**
+
+- Formado em administração  e possui 11 anos de experiência no mercado
+- Trabalha na área de gestão de produto BTG
+
+**PERSONALIDADE:**
+
+- Ele é apaixonado por produtos financeiros e está sempre buscando novas maneiras de melhorar a oferta do banco para seus clientes
+- Gabriel é muito atento aos clientes em relação aos produtos do BTG. Ele está sempre está monitorando as reações e feedback dos clientes para saber o que eles pensam sobre os produtos e serviços do banco, e para garantir que a empresa esteja sempre oferecendo produtos de qualidade e eficazes
+
+**OBJETIVOS:**
+
+- Gabriel busca compreender o que os clientes do banco BTG valorizam e como eles interagem com os produtos e serviços oferecidos
+- Entender os comportamentos e preferências do consumidor para melhorar a atração e retenção de clientes
+
+**FRUSTRAÇÕES:**
+
+- Avaliar performance de campanhas para tomadas de decisões mais rápidas, reduzindo custo e direcionando a campanha para a melhor eficiência. Gabriel pode enfrentar frustrações em avaliar a performance de campanhas de produto para tomar decisões mais rápidas e eficazes.Ainda assim carlos pode enfrentar problemas se os dados não corresponderem a nova campanha. Isso ocorre quando as  métricas não são claras e confiáveis para avaliar a receptividade dos produtos
+- Gerar campanhas baseadas nos interesses dos consumidores: Gabriel pode enfrentar desafios em gerar novos produtos baseadas nos interesses dos consumidores. Isso pode ser difícil se não houver informações precisas sobre os interesses e tendências dos clientes ou se as informações estiverem desatualizadas
+
+## **User Story**
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 1</td></tr><tr><td><strong>Épico</strong></td><td>Análise de sentimento dos comentários em postagens do BTG Pactual no Instagram. </td></tr><tr><td><strong>Persona</strong></td><td>Analista de Marketing do BTG Pactual </td></tr><tr><td><strong>História</strong></td><td><p>Eu, como usuário do sistema, quero uma ferramenta de análise de sentimento que possa identificar automaticamente se os comentários em postagens do BTG Pactual são positivos, negativos ou neutros, para que eu possa entender como os clientes estão reagindo às postagens do banco.</p><p><br> </p></td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><strong>Critério 1: </strong>A ferramenta deve ser capaz de identificar automaticamente se um comentário é positivo, negativo ou neutro. </td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1: </strong>A ferramenta identifica corretamente um comentário positivo. </p><ul><li>Conseguiu: correto. </li><li>Não conseguiu: errado, essa funcionalidade precisa ser corrigida.</li></ul><p><strong>Teste 2 para o critério 1: </strong>A ferramenta precisa ter uma acurácia de, no mínimo, 80%. </p><ul><li>Conseguiu: correto, o modelo tem uma acurácia satisfatória. </li><li>Não conseguiu: errado, essa funcionalidade precisa ser corrigida.</li></ul></td></tr></tbody></table>
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 2</td></tr><tr><td><strong>Épico</strong></td><td>Análise de sentimento dos comentários em postagens do BTG Pactual no Instagram.</td></tr><tr><td><strong>Persona</strong></td><td>Analista de Marketing do BTG Pactual </td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero ter acesso a uma interface de fácil utilização que me permita visualizar os resultados da análise de sentimento de forma clara e compreensível, como gráficos ou relatórios, para que eu possa interpretar os dados facilmente e tomar decisões informadas de marketing. </td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><strong>Critério 1: </strong>A interface deve ser fácil de usar e permitir visualizar os resultados da análise de sentimento de forma clara e compreensível, como gráficos ou relatórios.</td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1: </strong>A interface deve ter uma navegação intuitiva e fácil de usar. </p><ul><li>Conseguiu: correto, a interface é fácil de usar e permite visualizar os resultados de forma clara. </li><li>Não conseguiu: errado, a interface precisa ser melhorada para facilitar a navegação e visualização dos resultados. </li></ul><p><br> </p><p><strong>Teste 2 para o critério 1: </strong>Os gráficos e relatórios devem ser compreensíveis e mostrar os resultados da análise de sentimento de forma clara. </p><ul><li>Conseguiu: correto, os gráficos e relatórios mostram os resultados da análise de sentimento de forma clara e compreensível. </li><li>Não conseguiu: errado, os gráficos e relatórios precisam ser melhorados para mostrar os resultados de forma clara e compreensível.</li></ul></td></tr></tbody></table>
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 3</td></tr><tr><td><strong>Épico</strong></td><td>Análise de Sentimento em Tempo Real para Postagens do BTG Pactual</td></tr><tr><td><strong>Persona</strong></td><td>Analista de Marketing do BTG Pactual </td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero que a ferramenta seja capaz de processar grandes volumes de comentários em tempo real, para que eu possa obter insights em tempo hábil sobre a percepção dos clientes em relação às postagens do BTG Pactual. </td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><strong>Critério 1: </strong>A ferramenta deve ser capaz de processar pelo menos 200 comentários por hora em tempo real, sem atrasos significativos. </td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1:</strong> Inserir 200 comentários fictícios em um teste da ferramenta e avaliar se ela é capaz de processá-los em um período de 2 horas, sem atrasos significativos. </p><ul><li>Conseguiu: correto, a ferramenta é capaz de processar pelo menos 100 comentários por hora em tempo real. </li><li>Não conseguiu: errado, a ferramenta não é capaz de processar e será preciso otimizar.</li></ul></td></tr></tbody></table>
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 4</td></tr><tr><td><strong>Épico</strong></td><td>Melhorar a análise de dados do BTG Pactual</td></tr><tr><td><strong>Persona</strong></td><td>Gerente de Produtos do BTG Pactual </td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero que a ferramenta seja capaz de identificar palavras-chave relevantes nos comentários dos clientes, para que eu possa entender os principais tópicos de discussão e identificar tendências emergentes.</td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><strong>Critério 1: </strong>A ferramenta deve ser capaz de identificar palavras-chave relevantes em cada comentário. <br><strong>Critério 2: </strong>As palavras-chave identificadas pela ferramenta devem ser precisas e relevantes para os tópicos de discussão.</td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1: </strong>A ferramenta é testada com um conjunto de 10 comentários, e a identificação de pelo menos 5 palavras-chave relevantes é verificada. </p><ul><li>Conseguiu: correto, a ferramenta identificou pelo menos 5 palavras-chave em todos os 10 comentários. </li><li>Não conseguiu: errado, a ferramenta não identificou e será preciso otimizar.  </li></ul><p><br> </p><p><strong>Teste 1 para o critério 2:</strong> A ferramenta é testada com um conjunto de 10 comentários, e há precisão e relevância das palavras-chave identificadas. </p><ul><li>Conseguiu: correto, todas as palavras-chave identificadas são precisas e relevantes.</li><li>Não conseguiu: errado, pelo menos uma das palavras-chave identificadas é imprecisa ou irrelevante. </li></ul></td></tr></tbody></table>
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 5 <i>(Nice to Have)</i></td></tr><tr><td><strong>Épico</strong></td><td>Melhorar a acessibilidade e usabilidade do BTG Pactual</td></tr><tr><td><strong>Persona</strong></td><td>Gerente de Produtos do BTG Pactual </td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero que a interface seja responsiva e amigável para uso em dispositivos móveis, para que eu possa acessar e utilizar a ferramenta em qualquer lugar.</td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><p><strong>Critério 1: </strong>A interface deve ser responsiva e se adaptar a diferentes tamanhos de tela e dispositivos móveis. </p><p><strong>Critério 2:</strong> A interface deve ser amigável e intuitiva para o uso em diferentes dispositivos.</p></td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1:</strong> A interface é testada em diferentes dispositivos (por exemplo, smartphones, notebooks e tablets).</p><ul><li>Conseguiu: correto, a interface se adapta de forma responsiva a todos os tamanhos de tela e dispositivos testados. </li><li>Não conseguiu: errado, a interface não se adapta de forma responsiva e será preciso otimizar. </li></ul><p><br> </p><p><strong>Teste 1 para o critério 2: </strong>Vários usuários diferentes testam a interface e fornecem feedback sobre sua amigabilidade e intuitividade. </p><ul><li>Conseguiu: correto, a interface é considerada amigável e intuitiva pela maioria dos usuários que testaram. </li><li>Não conseguiu: errado, pelo menos três usuários consideram a interface pouco amigável ou não intuitiva.</li></ul></td></tr></tbody></table>
+
+<table><tbody><tr><td><strong>Número</strong></td><td>User story 6 <i>(Nice to Have)</i></td></tr><tr><td><strong>Épico</strong></td><td>Melhorar a análise de dados do BTG Pactual</td></tr><tr><td><strong>Persona</strong></td><td>Gerente de Produtos do BTG Pactual </td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero que a interface seja responsiva e amigável para uso em dispositivos móveis, para que eu possa acessar e utilizar a ferramenta em qualquer lugar.</td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><p><strong>Critério 1: </strong>A ferramenta deve permitir a seleção e comparação de pelo menos duas campanhas diferentes. </p><p><strong>Critério 2:</strong> A ferramenta deve apresentar a análise de sentimento de cada campanha de forma clara e fácil de entender. </p><p><strong>Critério 3: </strong>A ferramenta deve permitir a visualização da comparação entre as análises de sentimento de cada campanha.</p></td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1: </strong>O usuário tenta selecionar e comparar pelo menos duas campanhas diferentes. </p><ul><li>Conseguiu: correto, a ferramenta permite comparar pelo menos duas campanhas diferentes. </li><li>Não conseguiu: errado, a ferramenta não permite a comparação e será necessário aprimorar. </li></ul><p><strong>Teste 1 para o critério 2: </strong>O usuário examina as análises de sentimento de cada campanha selecionada. </p><ul><li>Conseguiu: correto, a ferramenta apresenta as análises de sentimento de cada campanha de forma clara e fácil de entender. </li><li>Não conseguiu: errado, a ferramenta não apresenta as análises de sentimento de forma clara ou fácil de entender. </li></ul><p><strong>Teste 1 para o critério 3: </strong>O usuário examina a visualização da comparação entre as análises de sentimento de cada campanha. </p><ul><li>Conseguiu: correto, a ferramenta permite visualizar a comparação entre as análises de sentimento de cada campanha de forma clara e fácil de entender. </li><li>Não conseguiu: errado, a ferramenta não permite visualizar a comparação entre as análises de sentimento de forma clara ou fácil de entender.</li></ul></td></tr></tbody></table>
 
 ## (Sprint 2) Documentação do Modelo de Bag of Words
 
