@@ -71,22 +71,9 @@ Insira aqui as instruções para desenvolvimento (modificação) do projeto.
 
 ## 🗃 Histórico de lançamentos
 
-A cada atualização os detalhes devem ser lançados aqui (segue exemplo abaixo).
-
-- 0.2.1 - 25/01/2022
-  - MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-- 0.2.0 - 15/01/2022
-  - MUDANÇA: Remove `setDefaultXYZ()`
-  - ADD: Adiciona `init()`
-- 0.1.1 - 11/01/2022
-  - CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-- 0.1.0 - 10/01/2022
-  - O primeiro lançamento adequado
-  - MUDANÇA: Renomeia `foo()` para `bar()`
-- 0.0.1 - 01/01/2022
-  - Trabalho em andamento
-
-## 📋 Licença/License
+- 0.0.1 - 30/04/2022
+  - Preenchimento da seção (Sprint 1) no Readme da pasta docs
+  - 📋 Licença/License
 
 Licensed under [Attribution 4.0 International![](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
 
@@ -94,6 +81,6 @@ Licensed under [Attribution 4.0 International![](https://mirrors.creativecommons
 
 Aqui estão as referências usadas no projeto (exemplos abaixo).
 
-1.  \<https://github.com/iuricode/readme-template\>
-2.  \<https://github.com/gabrieldejesus/readme-model\>
-3.  \<https://creativecommons.org/share-your-work/\>
+1. \<https://github.com/iuricode/readme-template\>
+2. \<https://github.com/gabrieldejesus/readme-model\>
+3. \<https://creativecommons.org/share-your-work/\>

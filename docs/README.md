@@ -20,16 +20,80 @@ O Canvas de Proposta de Valor é uma ferramenta visual que será útil para o pr
 
 <img width="787" alt="cvp3" src="https://user-images.githubusercontent.com/99191485/235315268-22b1710d-3f72-48ab-996c-c474cffd4d09.png">
 
-## (Sprint 1) Entendimento da Experiência do Usuário
+Abaixo estão descritos os itens em cada segmento:
 
+**Perfil do consumidor:**
+
+    1) Tarefas do cliente:
+
+* Criar campanhas de marketing que atendam aos desejos dos clientes;
+* Melhorar os produtos e serviços dos clientes;
+* Criar campanhas de marketing que captem novos clientes;
+* Criar uma percepção positiva da empresa para o público e
+* Criar novos produtos de acordo com os desejos dos clientes.
+
+  2) Dores do cliente:
+* Dificuldade na criação de campanhas de marketing assertivas;
+* Criação de produtos que não atendem às necessidades do cliente;
+* Escassez no tratamento aos dados fornecidos pelos cliente e
+* Irresponsabilidade na interação virtual na resolução de problemas dos clientes.
+
+  3) Ganhos dos clientes:
+* insights da percepção dos clientes sobre a empresa para criação de novos produtos;
+* melhoria da satisfação do cliente com as campanhas;
+* facilidade na tomada de decisões acerca de produtos e campanhas de marketing;
+* agilidade na mitigação de problemas reportados pelos clientes e
+* orientação para campanhas de marketing através de dados
+
+**Proposta de valor:**
+
+    1) Produtos e serviços:
+
+* Interface web com relatórios sobre o Instagram da empresa e
+* Análise de sentimentos, receptividade das campanhas e palavras chaves comentadas.
+
+  2) Aliviadores de dor:
+* Interface visual gráfica das análises;
+* Fornece métricas de sentimento gerado, receptividade da campanha e palavras chave e
+* Analisa os dados do Instagram em tempo real.
+
+  3) Ganhos:
+* Análise em tempo real de dados de rede social;
+* Visualização da impressão dos clientes nas campanhas de marketing e
+* Conhecimento detalhado sobre os dados e os sentimentos do cliente.
+
+---
 
 ### **Matriz de Riscos**
 
-A matriz de riscos é uma ferramenta que permite uma análise ampla das ameaças e oportunidades de um projeto. Com ela, podemos identificar as ameaças com maiores probabilidades e impactos em nosso projeto, além de identificar as oportunidades existentes no desenvolvimento. Sua principal função é auxiliar a empresa a tomar decisões com base nos impactos e na probabilidade desses riscos ocorrerem. A seguir, apresentamos a lista de todos os riscos (ameaças e oportunidades) validados pela equipe.
+A matriz de riscos é uma ferramenta que permite uma análise ampla das ameaças e oportunidades de um projeto. Com ela, podemos identificar as ameaças com maiores probabilidades e impactos em nosso projeto, além de identificar as oportunidades existentes no desenvolvimento. Sua principal função é auxiliar a empresa a tomar decisões com base nos impactos e na probabilidade desses riscos ocorrerem. A seguir, apresentamos a lista de todos os riscos (ameaças e oportunidades) validados pela equipe:
 
 <img src="image/README/matriz.jpg" width="800">
 
+##### Riscos:
 
+1) Acurácia pouco satisfatória, levando em consideração a subjetividade dos sentimentos humanos nos comentários - o risco de acontecer é alto, pois é algo que acontece frequentemente nos algoritmos de processamento de linguagem natural, já que ele é extremamente influenciado pela língua (português) e moderado, já que existem outros riscos considerados que são mais altos;
+2) Tempo de resposta de modelo oscilado: considerando que o modelo utilizará dados em tempo real, o tempo de resposta do modelo pode variar e causar espera e insatisfação do usuário: o risco é alto, visto que o processamento em dados real depende da quantidade deles e do quão complexos estarão para passarem pela limpeza e tratamento, o que influencia diretamente no tempo de resposta;
+3) Falta de precisão: A precisão da análise de sentimento pode ser afetada pela qualidade dos dados, bem como pela eficácia dos algoritmos de análise. Se a precisão da solução for baixa, a confiança dos clientes pode ser afetada: o risco é considerado baixo, pois os dados serão tratados, o que diminui a possibilidade de interferência da precisão pela qualidade dos dados.
+4) Expectativas mal definidas: Se as expectativas forem claramente definidas, pode haver mal-entendidos sobre o escopo do projeto, o tempo de entrega e o que é esperado do produto final: por ainda estarmos na primeira sprint e pela falta de recebimento dos dados, a probabilidade de as expectativas do que pretendemos entregar como solução e o que é esperado pelo parceiro podem ter sido mal compreendidas, mas com o seguimento do projeto, o recebimento dos dados e o maior contato com os parceiros, o risco tende a diminuir.
+5) Interfaces mal projetadas: O design da interface do usuário é crucial para garantir que os usuários possam interagir com o projeto de maneira intuitiva e eficaz. Interfaces mal projetadas podem dificultar o uso do projeto: por se tratar de uso de gráficos na interface e seu tempo de produção ser menor do que as demais partes do projeto, foi considerado um risco muito alto de acontecer, mas que pode ser contornado com uma comunicação efetiva com o parceiro e a prototipação do design antes de sua produção de fato.
+6) Dependência de bibliotecas de terceiros: O projeto de análise de sentimento pode depender de bibliotecas de terceiros para funcionar. Se essas bibliotecas estiverem desatualizadas ou forem descontinuadas, isso pode afetar a funcionalidade do projeto. Não é comum as bibliotecas serem descontinuadas, mas sim ter a adição de noas ferramentas ou melhorias, portanto apesar de ser uma ameaça, não enxergamos como alta.
+7) Mudanças nos requisitos: Se houver muitas mudanças nos requisitos durante o projeto, pode ser difícil finalizá-lo dentro do prazo estabelecido. Por ainda não termos a base de dados para analisar e somente 1 Sprint Review com o parceiro, os requisitos podem ter sido mal compreendidos, mas de fácil resolução dessa ameaça no decorrer dos encontros com o parceiro e a demonsrtração do que compreendemos e produzimos.
+
+##### Também forma identificadas Oportunidades:
+
+1. Mercado em crescimento: A análise de sentimento é uma área em crescimento, à medida que as empresas buscam entender melhor as opiniões e sentimentos de seus clientes nas redes sociais
+2. Melhoria contínua: A análise de sentimento é uma área em constante evolução, com novas técnicas e tecnologias surgindo regularmente, o que possibilita a maior precisão dos resultados e a eficiência do produto
+3. Criar novas formas de utilizar o projeto: dando seguimento ao projeto e criando um produto mais robusto, pode até funcionar como um SaaS ou uma vantagem competitiva de mercado
+4. Utilização de tecnologias de ponta: O seu projeto pode utilizar tecnologias de ponta, como inteligência artificial e aprendizado de máquina, para fornecer resultados precisos de análise de sentimento.
+5. Criação de Novos Produtos: Com base nos dados coletados pela sua solução de análise de sentimento, é possível identificar necessidades não atendidas pelos produtos existentes no mercado
+6. Obter insights dos produtos: é possível obter insights sobre os produtos e serviços existentes e entender os desejos do consumidor, disponibilizando novas ofertas.
+7. Possibilidade de colaboração: O projeto pode oferecer a possibilidade de colaboração com outras empresas e organizações que possam estar interessadas em análise de sentimento.
+8. Gerenciamento de Crises: A análise de sentimento pode ser utilizada para gerenciar crises de imagem de empresas, entendendo o que faz gerar sentimentos ruins e contornar a situação.
+9. Personalização: A sua solução de análise de sentimento pode ser personalizada para atender às necessidades específicas de diferentes setores, clientes e empresas do grupo parceiro.
+10. Análise de concorrência: A análise de sentimento pode ser utilizada para entender como a concorrência está sendo percebida pelos consumidores.
+
+## (Sprint 1) Entendimento da Experiência do Usuário
 
 ### **Personas**
 
@@ -102,10 +166,6 @@ A matriz de riscos é uma ferramenta que permite uma análise ampla das ameaças
 <table><tbody><tr><td><strong>Número</strong></td><td>User story 5 <i>(Nice to Have)</i></td></tr><tr><td><strong>Épico</strong></td><td>Melhorar a acessibilidade e usabilidade do BTG Pactual</td></tr><tr><td><strong>Persona</strong></td><td>Gerente de Produtos do BTG Pactual </td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero que a interface seja responsiva e amigável para uso em dispositivos móveis, para que eu possa acessar e utilizar a ferramenta em qualquer lugar.</td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><p><strong>Critério 1: </strong>A interface deve ser responsiva e se adaptar a diferentes tamanhos de tela e dispositivos móveis. </p><p><strong>Critério 2:</strong> A interface deve ser amigável e intuitiva para o uso em diferentes dispositivos.</p></td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1:</strong> A interface é testada em diferentes dispositivos (por exemplo, smartphones, notebooks e tablets).</p><ul><li>Conseguiu: correto, a interface se adapta de forma responsiva a todos os tamanhos de tela e dispositivos testados. </li><li>Não conseguiu: errado, a interface não se adapta de forma responsiva e será preciso otimizar. </li></ul><p><br> </p><p><strong>Teste 1 para o critério 2: </strong>Vários usuários diferentes testam a interface e fornecem feedback sobre sua amigabilidade e intuitividade. </p><ul><li>Conseguiu: correto, a interface é considerada amigável e intuitiva pela maioria dos usuários que testaram. </li><li>Não conseguiu: errado, pelo menos três usuários consideram a interface pouco amigável ou não intuitiva.</li></ul></td></tr></tbody></table>
 
 <table><tbody><tr><td><strong>Número</strong></td><td>User story 6 <i>(Nice to Have)</i></td></tr><tr><td><strong>Épico</strong></td><td>Melhorar a análise de dados do BTG Pactual</td></tr><tr><td><strong>Persona</strong></td><td>Gerente de Produtos do BTG Pactual </td></tr><tr><td><strong>História</strong></td><td>Eu, como usuário do sistema, quero que a interface seja responsiva e amigável para uso em dispositivos móveis, para que eu possa acessar e utilizar a ferramenta em qualquer lugar.</td></tr><tr><td><strong>Critérios de aceitação</strong></td><td><p><strong>Critério 1: </strong>A ferramenta deve permitir a seleção e comparação de pelo menos duas campanhas diferentes. </p><p><strong>Critério 2:</strong> A ferramenta deve apresentar a análise de sentimento de cada campanha de forma clara e fácil de entender. </p><p><strong>Critério 3: </strong>A ferramenta deve permitir a visualização da comparação entre as análises de sentimento de cada campanha.</p></td></tr><tr><td><strong>Testes de aceitação</strong></td><td><p><strong>Teste 1 para o critério 1: </strong>O usuário tenta selecionar e comparar pelo menos duas campanhas diferentes. </p><ul><li>Conseguiu: correto, a ferramenta permite comparar pelo menos duas campanhas diferentes. </li><li>Não conseguiu: errado, a ferramenta não permite a comparação e será necessário aprimorar. </li></ul><p><strong>Teste 1 para o critério 2: </strong>O usuário examina as análises de sentimento de cada campanha selecionada. </p><ul><li>Conseguiu: correto, a ferramenta apresenta as análises de sentimento de cada campanha de forma clara e fácil de entender. </li><li>Não conseguiu: errado, a ferramenta não apresenta as análises de sentimento de forma clara ou fácil de entender. </li></ul><p><strong>Teste 1 para o critério 3: </strong>O usuário examina a visualização da comparação entre as análises de sentimento de cada campanha. </p><ul><li>Conseguiu: correto, a ferramenta permite visualizar a comparação entre as análises de sentimento de cada campanha de forma clara e fácil de entender. </li><li>Não conseguiu: errado, a ferramenta não permite visualizar a comparação entre as análises de sentimento de forma clara ou fácil de entender.</li></ul></td></tr></tbody></table>
-
-(Sprint 2) Modelo de Bag of Words (IPYNB)
-
-Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 2) Documentação do Modelo de Bag of Words
 
