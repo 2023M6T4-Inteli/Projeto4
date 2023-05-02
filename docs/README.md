@@ -48,6 +48,8 @@ Relatórios do Iconosquare - Imagens 4 e 5
 Com base em entrevista com o parceiro do projeto, o banco BTG Pactual previu que, caso o projeto fosse desenvolvido internamente, o investimento médio seria de cerca de R$ 250 mil a R$ 300 mil. Essa cifra de investimento foi fornecida pelos responsáveis técnicos da empresa, os quais estimaram que seriam necessários cerca de 3 desenvolvedores plenos, em média 6 meses de desenvolvimento e toda a infraestrutura de cloud necessária para colocar o projeto em produção.
 Devido ao fato de ser um projeto interno que visa entender melhor as reações do público em relação às campanhas de ativação de marketing, não haverá geração de caixa direta.
 
+Apesar de que o projeto caso seja implementado em produção possa causar uma grande economia no orçamento de marketing e quem sabe até conseguir captar mais leads, tais métricas são muito difíceis de mensurar. Além disso, não são números fáceis de chegar e são necessárias muitas suposições que podem estar erradas, assim não é possível estimar um prazo no qual o banco consiga atingir o break even com a solução. 
+
 ### **Canvas de Proposta de Valor**
 
 O Canvas de Proposta de Valor é uma ferramenta visual que será útil para o projeto, pois cria e comunica de forma clara e concisa o valor que será gerado por ele. Ele consiste em um modelo de negócio dividido em seis blocos, que descrevem as principais características da proposta de valor, incluindo os problemas que motivaram o projeto, os benefícios que serão oferecidos, as soluções que propõe e a forma como se diferencia da concorrência. O Canvas de Proposta de Valor é uma ferramenta útil para entender o mercado, testar ideias e ajustar a estratégia de negócio.
