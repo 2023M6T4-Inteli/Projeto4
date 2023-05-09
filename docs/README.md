@@ -47,7 +47,14 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 2) Documentação do Modelo de Bag of Words
 
-Preencher conforme a descrição do artefato na Adalove.
+# Limpeza de dados
+
+Durante o processo de coleta de dados, notamos que muitos dos comentários feitos pelo BTG Pactual não eram relevantes para o nosso projeto. Além disso, algumas das publicações no feed mencionavam o BTG Pactual sem estar diretamente relacionadas ao nosso objetivo de análise. Por isso, decidimos realizar a limpeza desses dados.
+
+Para remover os comentários do BTG Pactual, utilizamos um script que percorre todas as postagens e comentários coletados e remove aqueles que foram feitos pela conta oficial do BTG Pactual. Da mesma forma, para remover as menções em publicações no feed, utilizamos um script que identifica as publicações que mencionam o BTG Pactual e as exclui da nossa base de dados.
+
+Essa limpeza de dados foi importante para nos concentrarmos apenas nas informações relevantes para a análise e obter resultados mais precisos. Todos os scripts utilizados para a limpeza de dados estão disponíveis na pasta correspondente no repositório do projeto.
+
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
