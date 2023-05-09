@@ -49,11 +49,11 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 # Limpeza de dados
 
-Durante o processo de coleta de dados, notamos que muitos dos comentários feitos pelo BTG Pactual não eram relevantes para o nosso projeto. Além disso, algumas das publicações no feed mencionavam o BTG Pactual sem estar diretamente relacionadas ao nosso objetivo de análise. Por isso, decidimos realizar a limpeza desses dados.
+Durante o processo de coleta de dados, foi notado que os comentários feitos pelo BTG Pactual não eram relevantes para o projeto. Além disso, algumas das publicações no feed mencionavam o BTG Pactual sem estar diretamente relacionadas ao objetivo da análise. Por isso, foi decidido remover esses dados.
 
-Para remover os comentários do BTG Pactual, utilizamos um script que percorre todas as postagens e comentários coletados e remove aqueles que foram feitos pela conta oficial do BTG Pactual. Da mesma forma, para remover as menções em publicações no feed, utilizamos um script que identifica as publicações que mencionam o BTG Pactual e as exclui da nossa base de dados.
+Para remover os comentários do BTG Pactual, foi utilizado um script que percorre todas as postagens e comentários coletados e remove aqueles que foram feitos pela conta oficial do BTG Pactual. Da mesma forma, para remover as menções em publicações no feed, um script que identifica as publicações que mencionam o BTG Pactual e as exclui da base de dados.
 
-Essa limpeza de dados foi importante para nos concentrarmos apenas nas informações relevantes para a análise e obter resultados mais precisos. Todos os scripts utilizados para a limpeza de dados estão disponíveis na pasta correspondente no repositório do projeto.
+Essa limpeza de dados foi importante para manter apenas as informações relevantes para a análise e obter resultados mais precisos. Todos os scripts utilizados para a limpeza de dados estão disponíveis na pasta correspondente no repositório do projeto.
 
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
