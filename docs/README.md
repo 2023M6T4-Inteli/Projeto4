@@ -46,6 +46,28 @@ Preencher conforme a descrição do artefato na Adalove.
 Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 2) Documentação do Modelo de Bag of Words
+### Fluxograma de processamento 
+
+Para o modelo Bag Of Words funcionar são necessárias algumas etapas de pré processamento que são apresentadas na figura acima e serão descrevidas em mais detalhes logo abaixo. 
+
+- **Tokenização** : Nesta primeira etapa, o texto é primeiramente todo colocado em minúsculo independe da palavra e logo em seguida é feito um loop que itera por toda a frase e transforma cada palavra em um elemento da array. 
+Assim, é mais fácil para o modelo enxergar cada palavra com um único elemento de uma array, facilitando iterações futuras. 
+```python
+['eu','gosto','de','sorvete','de','pistache']
+```
+
+- **Remoção de Stop Words** : Durante essa fase do processo são removidas todas as palavras que não agregam valor ao texto, que é o caso de por exemplo "o", "a","eu" e etc. 
+Fazendo isso, o modelo consegue entender melhor o significado de cada frase. 
+```python
+['gosto','sorvete','pistache']
+```
+
+- **Vetorização bag of words** : A última etapa desse processamento, consiste em tornar o texto uma matrix e contar quantas vezes tal palavra aparece na array que havia sido removida as stop words previamente
+```python
+['gosto','sorvete','pistache']
+[1,1,1]
+```
+
 
 ### Limpeza de dados
 #### **Introdução**
