@@ -48,12 +48,12 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 ## (Sprint 2) Documentação do Modelo de Bag of Words
 
 ### Limpeza de dados
-#### **Linha de raciocínio**
+#### **Introdução**
 O raciocínio foi o seguinte, como o escopo do projeto se trata da análise de dados dos comentários do BTG Pactual, todos os dados que não tinham relação direta com isso foram excluídos. 
 Então, comentários feitos pela empresa e postagens feitas por terceiros que marcavam a empresa foram removidos. 
 Foi optado por tal abordagem visto que o grupo entrou em consenso que tais dados não poderiam agregar valor para a análise e desenvolvimento do modelo. 
 
-#### **Processo**
+#### **Método**
 
 Durante o processo de coleta de dados, foi notado que os comentários feitos pelo BTG Pactual não eram relevantes para o projeto. Além disso, algumas das publicações no feed mencionavam o BTG Pactual sem estar diretamente relacionadas ao objetivo da análise. Por isso, foi decidido remover esses dados.
 
@@ -63,7 +63,12 @@ Essa limpeza de dados foi importante para manter apenas as informações relevan
 
 #### **Resultado**
 
-Com uma base de dados começando com 4596 linhas e 16 colunas, foram aplicados os parâmetros citados acima, assim o total de linhas pós aplicação da limpeza foram 2585 linhas.
+Com uma base de dados começando com 12355 linhas e 10 colunas, foram aplicados os parâmetros citados acima, assim o total de linhas pós aplicação da limpeza foram 6356 linhas.
+
+#### **Conclusão**
+
+Após esse processo de limpeza dos dados nota-se que muitos dados são perdidos, visto que o BTG Pactual responde uma grande quantia de pessoas em seus posts e muitas pessoas interagem com a companhia marcando-a mesma em uma vasta quantidade de publicações particulares.
+
 
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
