@@ -97,6 +97,7 @@ Com uma base de dados começando com 12355 linhas e 10 colunas, foram aplicados 
 
 Após esse processo de limpeza dos dados nota-se que muitos dados são perdidos, visto que o BTG Pactual responde uma grande quantia de pessoas em seus posts e muitas pessoas interagem com a companhia marcando-a mesma em uma vasta quantidade de publicações particulares, restando aproximadamente metade da base com dados relevantes ao objetivo do projeto.
 
+
 ### Pré-processamento
 
 **Introdução**
@@ -117,7 +118,7 @@ Após esse processo realizado em todos os dados do dataframe, foi adicionada uma
 
 **Conclusão**
 
-Para a aplicação do Bag of Words, os dados passaram por tratamentos característicos do processamento de linguagem natural e adicionada uma coluna no dataframe, que será utilizada para a aplicação do BoW.
+Para a aplicação do Bag of Words, os dados passaram por tratamentos característicos do processamento de linguagem natural e adicionada uma coluna no dataframe, que será utilizada para a aplicação do BoW.![1683822640735](image/README/1683822640735.png)
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
