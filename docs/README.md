@@ -10,7 +10,7 @@ A matriz é utilizada para visualizar, a partir de demais players do mercado, po
 
 ![1682733151293](image/README/1682733151293.png)
 
-    Matriz de Avaliação de Valor - Imagem 1
+Matriz de Avaliação de Valor - Imagem 1
 
 Portanto, é possível concluir tais aspectos:
 
@@ -27,15 +27,15 @@ A seguir é possível ver mais cada serviço que foi utilizado na matriz para co
 
 <img src="image/README/1682733615340.png" width="400"> <img src="image/README/1682733688613.png" width="400">
 
-    Relatórios do mLabs - Imagens 2 e 3
+Relatórios do mLabs - Imagens 2 e 3
 
 <img src="image/README/1682733858289.png" width="300"> <img src="image/README/1682733913802.png" width="400">
 
-    Relatórios do Iconosquare - Imagens 4 e 5
+Relatórios do Iconosquare - Imagens 4 e 5
 
 <img src="image/README/1682734727469.png" width="150"> <img src="image/README/1682734615095.png" width="150"> <img src="image/README/1682734138008.png" width="150">
 
-    Relatórios do Instagram Analytics - Imagens 6, 7 e 8
+Relatórios do Instagram Analytics - Imagens 6, 7 e 8
 
 (Sprint 1) Entendimento da Experiência do Usuário
 
@@ -47,34 +47,19 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 2) Documentação do Modelo de Bag of Words
 
-### Entendimento dos dados
-
-A base incial enviada pelo parceiro conta com 10 colunas e, a partir da interpretação do grupo, foi feita a seguinte conclusão:
-
-* 'dataPublicada': data de publicação da interação do Instagram @btgpactual;
-* 'autor': perfil que realizou a interação;
-* 'texto': o texto feito nos comentários das interações;
-* 'sentimento': classificação do sentimento obtido na interação (neutral, positive or negative);
-* tipoInteração: tipo de açaõ feita com o Instagram @btgpactual: comentário, resposta, marcação;
-* 'anomalia':
-* 'probabilidadeAnomalia':
-* 'linkPost': link relacionado ao post do Instagram referente àquela interação;
-* 'processado':
-* 'contémHyperlink':
-
 ### Fluxograma de processamento (pipeline)
 
 Para o modelo Bag Of Words funcionar são necessárias algumas etapas de pré processamento que são apresentadas na figura acima e serão descrevidas em mais detalhes logo abaixo.
 
 - **Tokenização** : Nesta primeira etapa, o texto é primeiramente todo colocado em minúsculo independe da palavra e logo em seguida é feito um loop que itera por toda a frase e transforma cada palavra em um elemento da array.
-  Assim, é mais fácil para o modelo enxergar cada palavra com um único elemento de uma array, facilitando iterações futuras.
+ Assim, é mais fácil para o modelo enxergar cada palavra com um único elemento de uma array, facilitando iterações futuras.
 
 ```python
 ['eu','gosto','de','sorvete','de','pistache']
 ```
 
 - **Remoção de Stop Words** : Durante essa fase do processo são removidas todas as palavras que não agregam valor ao texto, que é o caso de por exemplo "o", "a","eu" e etc.
-  Fazendo isso, o modelo consegue entender melhor o significado de cada frase.
+ Fazendo isso, o modelo consegue entender melhor o significado de cada frase.
 
 ```python
 ['gosto','sorvete','pistache']
@@ -120,11 +105,13 @@ O projeto lida com dados não-estrutrados (texto), portanto requer outras técni
 
 **Método**
 
-Foram aplicadas duas técnicas de pré processamento em NLP no desenvolvimento:
+Foram utilizadas duas técnicas de pré-processamento em NLP no desenvolvimento do projeto para garantir a qualidade e a integridade dos dados.
 
-1. Transformação de todas as letras para minúsuclas: constitue-se pela transformação de todas as letras dos comentários para letras minúsculas;
-2. Remoção de stop words: remove palavras que não contribuem muito para o significado de uma frase (e.g: 'de', 'e', 'ou', etc);
-3. Tokenização: consiste na divisão de textos, no caso os comentários (coluna 'texto') em palavras ou tokens.
+A primeira técnica consistiu na transformação de todas as letras para minúsculas, o que ajudou a reduzir a complexidade dos dados e a garantir que as palavras fossem tratadas de forma consistente durante o processo de análise. Essa técnica foi especialmente útil para evitar que as mesmas palavras fossem contadas como diferentes devido a diferenças de capitalização.
+
+A segunda técnica utilizada foi a remoção de stop words, que são palavras que não contribuem muito para o significado de uma frase, como 'de', 'e', 'ou', entre outras. Essa técnica ajudou a reduzir o ruído nos dados e a melhorar a precisão da análise, uma vez que se concentrou nas palavras mais relevantes para a compreensão dos comentários.
+
+Além disso, foi utilizada a técnica de tokenização, que consiste na divisão de textos, no caso os comentários (coluna 'texto'), em palavras ou tokens. Essa técnica ajudou a separar os comentários em unidades menores, o que facilitou o processo de análise e permitiu a identificação de padrões e tendências nos dados.
 
 **Resultado**
 
@@ -132,7 +119,11 @@ Após esse processo realizado em todos os dados do dataframe, foi adicionada uma
 
 **Conclusão**
 
-Para a aplicação do Bag of Words, os dados passaram por tratamentos característicos do processamento de linguagem natural e adicionada uma coluna no dataframe, que será utilizada para a aplicação do BoW.![1683822640735](image/README/1683822640735.png)
+Ao utilizar essas técnicas de pré-processamento, foi possível garantir que os dados fossem tratados de forma consistente e que a análise fosse baseada em informações relevantes e precisas. Isso ajudou a melhorar a qualidade dos resultados obtidos e a tornar o projeto mais confiável e útil para o leitor.
+
+Para a aplicação do Bag of Words, os dados passaram por tratamentos característicos do processamento de linguagem natural e adicionada uma coluna no dataframe, que será utilizada para a aplicação do BoW.
+
+![1683822640735](image/README/1683822640735.png)
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
