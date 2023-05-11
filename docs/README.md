@@ -99,9 +99,25 @@ Após esse processo de limpeza dos dados nota-se que muitos dados são perdidos,
 
 ### Pré-processamento
 
-Introdução
+**Introdução**
 
-O projeto lida com dados não-estrutrados (texto), portanto requer outras técnicas de pré-processamento. Foram realizadas a remoção de stop words e a tokenização nos comentários (coluna 'texto').
+O projeto lida com dados não-estrutrados (texto), portanto requer outras técnicas de pré-processamento que são amplamente utilizadas em processamento de linguagem natural.
+
+**Método**
+
+Foram aplicadas duas técnicas de pré processamento em NLP no desenvolvimento:
+
+1. Transformação de todas as letras para minúsuclas: constitue-se pela transformação de todas as letras dos comentários para letras minúsculas;
+2. Remoção de stop words: remove palavras que não contribuem muito para o significado de uma frase (e.g: 'de', 'e', 'ou', etc);
+3. Tokenização: consiste na divisão de textos, no caso os comentários (coluna 'texto') em palavras ou tokens.
+
+**Resultado**
+
+Após esse processo realizado em todos os dados do dataframe, foi adicionada uma coluna, 'Frases_sem_stop_words', constituída de listas das palavras tokenizadas e sem stop words e, por fim, exportou-se um novo dataframe com os dados tratados.
+
+**Conclusão**
+
+Para a aplicação do Bag of Words, os dados passaram por tratamentos característicos do processamento de linguagem natural e adicionada uma coluna no dataframe, que será utilizada para a aplicação do BoW.
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
