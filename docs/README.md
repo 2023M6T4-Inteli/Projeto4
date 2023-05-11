@@ -47,6 +47,21 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 2) Documentação do Modelo de Bag of Words
 
+### Entendimento dos dados
+
+A base incial enviada pelo parceiro conta com 10 colunas e, a partir da interpretação do grupo, foi feita a seguinte conclusão:
+
+* 'dataPublicada': data de publicação da interação do Instagram @btgpactual;
+* 'autor': perfil que realizou a interação;
+* 'texto': o texto feito nos comentários das interações;
+* 'sentimento': classificação do sentimento obtido na interação (neutral, positive or negative);
+* tipoInteração: tipo de açaõ feita com o Instagram @btgpactual: comentário, resposta, marcação;
+* 'anomalia':
+* 'probabilidadeAnomalia':
+* 'linkPost': link relacionado ao post do Instagram referente àquela interação;
+* 'processado':
+* 'contémHyperlink':
+
 ### Fluxograma de processamento (pipeline)
 
 Para o modelo Bag Of Words funcionar são necessárias algumas etapas de pré processamento que são apresentadas na figura acima e serão descrevidas em mais detalhes logo abaixo.
@@ -96,7 +111,6 @@ Com uma base de dados começando com 12355 linhas e 10 colunas, foram aplicados 
 **Conclusão**
 
 Após esse processo de limpeza dos dados nota-se que muitos dados são perdidos, visto que o BTG Pactual responde uma grande quantia de pessoas em seus posts e muitas pessoas interagem com a companhia marcando-a mesma em uma vasta quantidade de publicações particulares, restando aproximadamente metade da base com dados relevantes ao objetivo do projeto.
-
 
 ### Pré-processamento
 
