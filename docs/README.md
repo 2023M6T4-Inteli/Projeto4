@@ -46,52 +46,62 @@ Preencher conforme a descrição do artefato na Adalove.
 Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 2) Documentação do Modelo de Bag of Words
-### Fluxograma de processamento 
 
-Para o modelo Bag Of Words funcionar são necessárias algumas etapas de pré processamento que são apresentadas na figura acima e serão descrevidas em mais detalhes logo abaixo. 
+### Fluxograma de processamento (pipeline)
 
-- **Tokenização** : Nesta primeira etapa, o texto é primeiramente todo colocado em minúsculo independe da palavra e logo em seguida é feito um loop que itera por toda a frase e transforma cada palavra em um elemento da array. 
-Assim, é mais fácil para o modelo enxergar cada palavra com um único elemento de uma array, facilitando iterações futuras. 
+Para o modelo Bag Of Words funcionar são necessárias algumas etapas de pré processamento que são apresentadas na figura acima e serão descrevidas em mais detalhes logo abaixo.
+
+- **Tokenização** : Nesta primeira etapa, o texto é primeiramente todo colocado em minúsculo independe da palavra e logo em seguida é feito um loop que itera por toda a frase e transforma cada palavra em um elemento da array.
+  Assim, é mais fácil para o modelo enxergar cada palavra com um único elemento de uma array, facilitando iterações futuras.
+
 ```python
 ['eu','gosto','de','sorvete','de','pistache']
 ```
 
-- **Remoção de Stop Words** : Durante essa fase do processo são removidas todas as palavras que não agregam valor ao texto, que é o caso de por exemplo "o", "a","eu" e etc. 
-Fazendo isso, o modelo consegue entender melhor o significado de cada frase. 
+- **Remoção de Stop Words** : Durante essa fase do processo são removidas todas as palavras que não agregam valor ao texto, que é o caso de por exemplo "o", "a","eu" e etc.
+  Fazendo isso, o modelo consegue entender melhor o significado de cada frase.
+
 ```python
 ['gosto','sorvete','pistache']
 ```
 
 - **Vetorização bag of words** : A última etapa desse processamento, consiste em tornar o texto uma matrix e contar quantas vezes tal palavra aparece na array que havia sido removida as stop words previamente
+
 ```python
 ['gosto','sorvete','pistache']
 [1,1,1]
 ```
 
-
 ### Limpeza de dados
-#### **Introdução**
-O raciocínio foi o seguinte, como o escopo do projeto se trata da análise de dados dos comentários do BTG Pactual, todos os dados que não tinham relação direta com isso foram excluídos. 
-Então, comentários feitos pela empresa e postagens feitas por terceiros que marcavam a empresa foram removidos. 
-Foi optado por tal abordagem visto que o grupo entrou em consenso que tais dados não poderiam agregar valor para a análise e desenvolvimento do modelo. 
 
-#### **Método**
+**Introdução**
 
-Durante o processo de coleta de dados, foi notado que os comentários feitos pelo BTG Pactual não eram relevantes para o projeto. Além disso, algumas das publicações no feed mencionavam o BTG Pactual sem estar diretamente relacionadas ao objetivo da análise. Por isso, foi decidido remover esses dados.
+Visto que o escopo do projeto se trata da análise de dados dos comentários do Instagram @btgpactual, todos os dados que não tinham relação direta com esse objetivo foram excluídos, sendo eles: comentários (replys) feitos pela empresa, postagens feitas por terceiros que marcavam a empresa foram removidos.
+Tal abordagem foi adotada, visto que o grupo entrou em consenso de que tais dados não poderiam agregar valor para a análise e desenvolvimento do modelo.
 
-Para remover os comentários do BTG Pactual, foi utilizado um script que percorre todas as postagens e comentários coletados e remove aqueles que foram feitos pela conta oficial do BTG Pactual. Da mesma forma, para remover as menções em publicações no feed, um script que identifica as publicações que mencionam o BTG Pactual e as exclui da base de dados.
+**Método**
+
+Durante o processo de coleta de dados, foi notado que os comentários feitos pelo BTG Pactual não eram relevantes para o projeto. Além disso, algumas das publicações no feed mencionavam o BTG Pactual sem estar diretamente relacionadas ao objetivo da análise e,opr isso, foi decidido remover esses dados.
+
+Para removê-los, foi utilizado um script que percorre todas as postagens e comentários coletados e remove aqueles que foram feitos pela conta oficial do BTG Pactual (@btgpactual). Da mesma forma, para remover as menções em publicações no feed, um script que identifica as publicações que mencionam o BTG Pactual e as exclui da base de dados.
 
 Essa limpeza de dados foi importante para manter apenas as informações relevantes para a análise e obter resultados mais precisos. Todos os scripts utilizados para a limpeza de dados estão disponíveis na pasta correspondente no repositório do projeto.
 
-#### **Resultado**
+Por fim, foi exportada uma nova base de dados (df_final.csv) com os dataframe limpo e pronto para aplicar outras técnicas de pré processamento.
+
+**Resultado**
 
 Com uma base de dados começando com 12355 linhas e 10 colunas, foram aplicados os parâmetros citados acima, assim o total de linhas pós aplicação da limpeza foram 6356 linhas.
 
-#### **Conclusão**
+**Conclusão**
 
-Após esse processo de limpeza dos dados nota-se que muitos dados são perdidos, visto que o BTG Pactual responde uma grande quantia de pessoas em seus posts e muitas pessoas interagem com a companhia marcando-a mesma em uma vasta quantidade de publicações particulares.
+Após esse processo de limpeza dos dados nota-se que muitos dados são perdidos, visto que o BTG Pactual responde uma grande quantia de pessoas em seus posts e muitas pessoas interagem com a companhia marcando-a mesma em uma vasta quantidade de publicações particulares, restando aproximadamente metade da base com dados relevantes ao objetivo do projeto.
 
+### Pré-processamento
 
+Introdução
+
+O projeto lida com dados não-estrutrados (texto), portanto requer outras técnicas de pré-processamento. Foram realizadas a remoção de stop words e a tokenização nos comentários (coluna 'texto').
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
