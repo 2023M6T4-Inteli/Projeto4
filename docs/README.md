@@ -43,6 +43,9 @@ Preencher conforme a descrição do artefato na Adalove.
 
 ## (Sprint 2) Modelo de Bag of Words (IPYNB)
 
+O Bag of Words é uma técnica de linguagem natural útil para criar um conjunto não ordenado de palavras. Dessa forma, o Bag of Words será importante para a análise de sentimentos porque, com ele, será possível vetorizar e comparar as similaridades ou diferenças com base na frequência de repetição de cada palavra:
+
+
 Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 2) Documentação do Modelo de Bag of Words
