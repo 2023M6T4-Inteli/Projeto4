@@ -41,9 +41,9 @@ A seguir, apresentaremos os resultados obtidos dos pré-processamentos e algumas
 
 ### • Gráfico que representa a porcentagem de comentários feitos pelo BTG Pactual e todos os outros usuários do Instagram:
 
-Para garantir a precisão da nossa análise sobre a percepção dos clientes do BTG Pactual no Instagram, foi realizada uma etapa inicial de limpeza dos dados. Nessa etapa, removemos os comentários feitos pelo próprio @btgpactual, que correspondiam a 48,6% do total de comentários do dataset. Se tais comentários fossem incluídos na análise, os resultados poderiam estar enviesados e não refletiriam adequadamente a opinião dos clientes reais do banco. Para visualizar essa informação, apresentamos abaixo um gráfico que representa a porcentagem de comentários feitos pelo BTG Pactual e pelos demais usuários do Instagram:
+Para garantir a precisão da nossa análise sobre a percepção dos clientes do BTG Pactual no Instagram, foi realizada uma etapa inicial de limpeza dos dados. Nessa etapa, removemos os comentários feitos pelo próprio @btgpactual, que correspondiam a 1,3% do total de comentários do dataset. Se tais comentários fossem incluídos na análise, os resultados poderiam estar enviesados e não refletiriam adequadamente a opinião dos clientes reais do banco. Para visualizar essa informação, apresentamos abaixo um gráfico que representa a porcentagem de comentários feitos pelo BTG Pactual e pelos demais usuários do Instagram:
 
-![image](https://github.com/2023M6T4-Inteli/Projeto4/assets/68927480/645e9df0-30ea-4114-a36a-d18270091fd3)
+![image](https://github.com/2023M6T4-Inteli/Projeto4/assets/68927480/d8ee2da6-c263-4f72-9965-afc250aa76ab)
 
 ### • Resultado da função "describe" da primeira base de dados:
 
