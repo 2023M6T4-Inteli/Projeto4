@@ -62,12 +62,19 @@ Para ilustrar essas mudanças, apresentamos abaixo um gráfico que acompanha o p
 
 ![image](https://github.com/2023M6T4-Inteli/Projeto4/assets/68927480/a9693799-f5eb-48cf-a32f-3adc3e177ffa)
 
+### • Gráfico que compara a quantidade de linhas e colunas entre a primeira e a última base de dados:
+
+Abaixo temos o gráfico que mostra a comparação entre a quantidade de linhas e colunas na base inicial e na base final, após todas as etapas de pré-processamento.
+
+![image](https://github.com/2023M6T4-Inteli/Projeto4/assets/68927480/19c1ad36-ddba-42e0-8abc-3705b15b496d)
+
+
 ### • Gráfico da quantidade de comentários positivos, negativos e neutros:
 Na base de dados recebida, uma das colunas apresenta os sentimentos dos comentários. Foi criado um gráfico para ilustrar a distribuição desses sentimentos entre positivo, negativo e neutro. No entanto, é importante destacar que todos os comentários que contêm emojis, independentemente dos emojis utilizados, são classificados como neutros. Isso significa que, embora o gráfico mostre com precisão a distribuição dos sentimentos na base de dados, ele não reflete necessariamente o sentimento real dos usuários, já que os emojis não foram tratados.
 
 ![image](https://github.com/2023M6T4-Inteli/Projeto4/assets/68927480/97c30a43-0c48-46b5-8cbb-c5e1d489140f)
 
-### Pipeline do Pré-processamento:
+### • Pipeline do Pré-processamento:
 
 A imagem abaixo apresenta um exemplo de como o pipeline de pré-processamento é realizado, etapa fundamental no processamento de dados para garantir que as informações estejam em um formato adequado para serem utilizadas em nossos modelos e análises. Esse pipeline é composto por diversas etapas, desde a coleta e armazenamento dos dados até a aplicação de técnicas de limpeza, transformação e vetorização. No exemplo apresentado, o pipeline envolve a transformação do texto para minúsculo, a remoção de stop words, a tokenização e a vetorização por meio do método bag of words. Cada etapa desempenha um papel importante na preparação dos dados para uso posterior, e o pipeline como um todo é uma parte crítica do nosso processo de análise de dados.
 
