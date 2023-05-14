@@ -47,87 +47,33 @@ O Bag of Words é uma técnica de linguagem natural útil para criar um conjunto
 
 O documento contendo a descrição técnica está disponível no seguinte link: https://github.com/2023M6T4-Inteli/Projeto4/blob/Dev/descri%C3%A7%C3%A3oT%C3%A9cnica.md
 
-Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
-
 ## (Sprint 2) Documentação do Modelo de Bag of Words
 
 ### Fluxograma de processamento (pipeline)
 
-Para o modelo Bag Of Words funcionar são necessárias algumas etapas de pré processamento que são apresentadas na figura acima e serão descrevidas em mais detalhes logo abaixo.
-
-- **Tokenização** : Nesta primeira etapa, o texto é primeiramente todo colocado em minúsculo independe da palavra e logo em seguida é feito um loop que itera por toda a frase e transforma cada palavra em um elemento da array.
- Assim, é mais fácil para o modelo enxergar cada palavra com um único elemento de uma array, facilitando iterações futuras.
+Para a aplicação da técnica Bag Of Words, são necessárias algumas etapas de pré processamento de dados não estruturados, apresentadas na figura abaixo e serão descritas em mais detalhes a seguir.
+![1683822640735](image/README/1683822640735.png)
+- **Tokenização** : Nesta primeira etapa, o texto é, primeiramente, todo colocado em minúsculo independente da palavra e, logo em seguida, é feito um loop que itera por toda a frase e transforma cada palavra em um elemento da array.
+  Assim, é mais fácil para o modelo enxergar cada palavra com um único elemento de uma array, facilitando iterações futuras.
 
 ```python
 ['eu','gosto','de','sorvete','de','pistache']
 ```
 
-- **Remoção de Stop Words** : Durante essa fase do processo são removidas todas as palavras que não agregam valor ao texto, que é o caso de por exemplo "o", "a","eu" e etc.
- Fazendo isso, o modelo consegue entender melhor o significado de cada frase.
+- **Remoção de Stop Words** : Durante essa fase do processo são removidas todas as palavras que não agregam valor semântico ao texto, como por exemplo "o", "a","eu" e etc.
+  Fazendo isso, o modelo consegue entender melhor o significado de cada frase para a posterior análise de sentimentos.
 
 ```python
 ['gosto','sorvete','pistache']
 ```
 
-- **Vetorização bag of words** : A última etapa desse processamento, consiste em tornar o texto uma matrix e contar quantas vezes tal palavra aparece na array que havia sido removida as stop words previamente
+- **Vetorização bag of words** : A última etapa desse processamento, consiste em tornar o texto uma matrix de vetores e contar quantas vezes determinada palavra aparece no corpus.
 
 ```python
 ['gosto','sorvete','pistache']
 [1,1,1]
 ```
-
-### Limpeza de dados
-
-**Introdução**
-
-Visto que o escopo do projeto se trata da análise de dados dos comentários do Instagram @btgpactual, todos os dados que não tinham relação direta com esse objetivo foram excluídos, sendo eles: comentários (replys) feitos pela empresa, postagens feitas por terceiros que marcavam a empresa foram removidos.
-Tal abordagem foi adotada, visto que o grupo entrou em consenso de que tais dados não poderiam agregar valor para a análise e desenvolvimento do modelo.
-
-**Método**
-
-Durante o processo de coleta de dados, foi notado que os comentários feitos pelo BTG Pactual não eram relevantes para o projeto. Além disso, algumas das publicações no feed mencionavam o BTG Pactual sem estar diretamente relacionadas ao objetivo da análise e,opr isso, foi decidido remover esses dados.
-
-Para removê-los, foi utilizado um script que percorre todas as postagens e comentários coletados e remove aqueles que foram feitos pela conta oficial do BTG Pactual (@btgpactual). Da mesma forma, para remover as menções em publicações no feed, um script que identifica as publicações que mencionam o BTG Pactual e as exclui da base de dados.
-
-Essa limpeza de dados foi importante para manter apenas as informações relevantes para a análise e obter resultados mais precisos. Todos os scripts utilizados para a limpeza de dados estão disponíveis na pasta correspondente no repositório do projeto.
-
-Por fim, foi exportada uma nova base de dados (df_final.csv) com os dataframe limpo e pronto para aplicar outras técnicas de pré processamento.
-
-**Resultado**
-
-Com uma base de dados começando com 12355 linhas e 10 colunas, foram aplicados os parâmetros citados acima, assim o total de linhas pós aplicação da limpeza foram 6356 linhas.
-
-**Conclusão**
-
-Após esse processo de limpeza dos dados nota-se que muitos dados são perdidos, visto que o BTG Pactual responde uma grande quantia de pessoas em seus posts e muitas pessoas interagem com a companhia marcando-a mesma em uma vasta quantidade de publicações particulares, restando aproximadamente metade da base com dados relevantes ao objetivo do projeto.
-
-### Pré-processamento
-
-**Introdução**
-
-O projeto lida com dados não-estrutrados (texto), portanto requer outras técnicas de pré-processamento que são amplamente utilizadas em processamento de linguagem natural.
-
-**Método**
-
-Foram utilizadas duas técnicas de pré-processamento em NLP no desenvolvimento do projeto para garantir a qualidade e a integridade dos dados.
-
-A primeira técnica consistiu na transformação de todas as letras para minúsculas, o que ajudou a reduzir a complexidade dos dados e a garantir que as palavras fossem tratadas de forma consistente durante o processo de análise. Essa técnica foi especialmente útil para evitar que as mesmas palavras fossem contadas como diferentes devido a diferenças de capitalização.
-
-A segunda técnica utilizada foi a remoção de stop words, que são palavras que não contribuem muito para o significado de uma frase, como 'de', 'e', 'ou', entre outras. Essa técnica ajudou a reduzir o ruído nos dados e a melhorar a precisão da análise, uma vez que se concentrou nas palavras mais relevantes para a compreensão dos comentários.
-
-Além disso, foi utilizada a técnica de tokenização, que consiste na divisão de textos, no caso os comentários (coluna 'texto'), em palavras ou tokens. Essa técnica ajudou a separar os comentários em unidades menores, o que facilitou o processo de análise e permitiu a identificação de padrões e tendências nos dados.
-
-**Resultado**
-
-Após esse processo realizado em todos os dados do dataframe, foi adicionada uma coluna, 'Frases_sem_stop_words', constituída de listas das palavras tokenizadas e sem stop words e, por fim, exportou-se um novo dataframe com os dados tratados.
-
-**Conclusão**
-
-Ao utilizar essas técnicas de pré-processamento, foi possível garantir que os dados fossem tratados de forma consistente e que a análise fosse baseada em informações relevantes e precisas. Isso ajudou a melhorar a qualidade dos resultados obtidos e a tornar o projeto mais confiável e útil para o leitor.
-
-Para a aplicação do Bag of Words, os dados passaram por tratamentos característicos do processamento de linguagem natural e adicionada uma coluna no dataframe, que será utilizada para a aplicação do BoW.
-
-![1683822640735](image/README/1683822640735.png)
+As técnicas implementadas e descritas acima no pipeline estão descritas detalhadamente no seguinte documento: https://github.com/2023M6T4-Inteli/Projeto4/blob/Dev/descri%C3%A7%C3%A3oT%C3%A9cnica.md
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
