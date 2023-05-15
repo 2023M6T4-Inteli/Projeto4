@@ -42,6 +42,12 @@ Acrescentar as informações necessárias para configuração de desenvolvimento
 
 
 
+
+
+### 📋 Licença/License:
+
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023M6T4-Inteli/Projeto4">AdTrack <a> by </a> <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/InteliProjects/.github/blob/main/profile/README.md">Inteli, <a href="https://www.linkedin.com/in/camilaanacleto/">Camila Anacleto</a>, <a href="https://www.linkedin.com/in/eduardo-franca-porto/">Eduardo França Porto </a>, <a href="https://www.linkedin.com/in/gabriel-rocha-pinto-santos-/">Gabriel Rocha Pinto Santos</a>, <a href="https://www.linkedin.com/in/matheus-fidelis-680520232/">Matheus Fidelis dos Santos Pinto</a>, <a href="https://www.linkedin.com/in/rodrigo-campos-8b70191ab/">Rodrigo Campos</a>, <a href="https://www.linkedin.com/in/sophia-dias/">Sophia Dias</a>    + is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
+
 ## 🎓 Referências
 
 
