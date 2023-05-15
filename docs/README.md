@@ -1,6 +1,7 @@
 # Documento Principal do Projeto
 
-Descrição sucinta do projeto, com descrição do problema, do objetivo e da solução em linhas gerais.
+O desafio do BTG Pactual é fazer uma análise de sentimentos nas suas postagens do Instagrama partir dos comentários, visando entender se a visão do público sobre determinadas campanhas de marketing é positiva, negativa ou neutra.
+Assim, com o AdTrack, visamos classificar esses comentários em bons, neutros ou ruins, e extrair as palavras-chave destes, com base em um modelo de processamento de linguagem natural (NLP), de tal modo que seja possível tomar decisões a respeito das campanhas de marketing e acerca dos produtos e serviços do banco de forma mais assertiva.
 
 ## (Sprint 1) Entendimento do Negócio
 
@@ -39,9 +40,9 @@ Relatórios do Instagram Analytics - Imagens 6, 7 e 8
 
 (Sprint 1) Entendimento da Experiência do Usuário
 
-Preencher conforme a descrição do artefato na Adalove.
+### **Personas**
 
-## (Sprint 2) Modelo de Bag of Words (IPYNB)
+### **1 Maria**
 
 O Bag of Words é uma técnica de linguagem natural útil para criar um conjunto não ordenado de palavras. Dessa forma, o Bag of Words será importante para a análise de sentimentos porque, com ele, será possível vetorizar e comparar as similaridades ou diferenças com base na frequência de repetição de cada palavra:
 
@@ -53,6 +54,7 @@ O documento contendo a descrição técnica está disponível no seguinte link: 
 
 Para a aplicação da técnica Bag Of Words, são necessárias algumas etapas de pré processamento de dados não estruturados, apresentadas na figura abaixo e serão descritas em mais detalhes a seguir.
 ![1683822640735](image/README/1683822640735.png)
+
 - **Tokenização** : Nesta primeira etapa, o texto é, primeiramente, todo colocado em minúsculo independente da palavra e, logo em seguida, é feito um loop que itera por toda a frase e transforma cada palavra em um elemento da array.
   Assim, é mais fácil para o modelo enxergar cada palavra com um único elemento de uma array, facilitando iterações futuras.
 
@@ -73,6 +75,7 @@ Para a aplicação da técnica Bag Of Words, são necessárias algumas etapas de
 ['gosto','sorvete','pistache']
 [1,1,1]
 ```
+
 As técnicas implementadas e descritas acima no pipeline estão descritas detalhadamente no seguinte documento: https://github.com/2023M6T4-Inteli/Projeto4/blob/Dev/descri%C3%A7%C3%A3oT%C3%A9cnica.md
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
