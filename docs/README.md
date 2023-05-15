@@ -76,7 +76,7 @@ Para a aplicação da técnica Bag Of Words, são necessárias algumas etapas de
 [1,1,1]
 ```
 
-As técnicas implementadas e descritas acima no pipeline estão descritas detalhadamente no seguinte documento: https://github.com/2023M6T4-Inteli/Projeto4/blob/Dev/descri%C3%A7%C3%A3oT%C3%A9cnica.md
+As técnicas implementadas e descritas acima no pipeline estão descritas detalhadamente no seguinte documento: https://github.com/2023M6T4-Inteli/Projeto4/blob/main/descri%C3%A7%C3%A3oT%C3%A9cnica.md
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
