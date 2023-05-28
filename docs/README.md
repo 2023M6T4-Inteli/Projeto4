@@ -123,6 +123,9 @@ Essa abordagem baseada no Word2Vec e na biblioteca Gensim possibilitou a obtenç
 
 Por fim, ao serem feitas as respectivas análises de acurácia do modelo com o Naive Bayes, a mudança dos resultados obtidos com as duas vetorizações foram insignificantes. O modelo que utilizou o corpus obteve uma acurácia de 59% e o com a base pré treinada foi de 57%. Assim, futuros ajustes são necessários para obter uma melhor acurácia do modelo e permitir com que as classificações sejam mais acertivas.
 
+As técnicas implementadas e descritas acima têm sua análise detalhada no seguinte documento:
+https://github.com/2023M6T4-Inteli/Projeto4/blob/Dev/analisesSprint3.md
+
 ## (Sprint 4) Proposta de uma nova modelagem utilizando novas features (IPYNB)
 
 Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
