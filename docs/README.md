@@ -80,7 +80,14 @@ As técnicas implementadas e descritas acima no pipeline estão descritas detalh
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
-Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
+### **Stop words customizadas**
+ A adição de stop words customizadas elimina palavras específicas do domínio ou contexto do problema em questão, no qual  são selecionadas com base na análise prévia dos dados. Permitindo eliminar termos frequentes, mas irrelevantes, refinando o pré-processamento de texto e melhorando a qualidade dos resultados. A inclusão de stop words customizadas é especialmente útil em problemas específicos, onde certas palavras podem aparecer com frequência, mas não contribuem para a análise ou podem introduzir ruído nos resultados. Essa personalização das stop words permite um foco maior nas informações relevantes, aumentando a precisão e a eficiência da análise de texto.
+
+Palavras que retiramos usando stopwords customizados :  'btg', 'pactual', 'btg pactual','pq', 'q', 'pra', 'vcs', 'vc', 'i', 'p', 'kkk', 'y', 'of', 'n'.
+
+### **One hot coding coluna de sentimentos**
+
+A técnica utilizada, conhecida como One Hot Coding, consiste em transformar uma coluna categórica em um conjunto de colunas binárias. No caso específico, a coluna de sentimento foi dividida em três novas colunas: neutro, positivo e negativo. Cada uma dessas colunas representa uma categoria de sentimento e recebe o valor 1 se o sentimento for correspondente à categoria da coluna, e 0 caso contrário. Essa transformação permite uma representação mais adequada dos diferentes sentimentos presentes na coluna original, facilitando a análise e processamento dos dados.
 
 ## (Sprint 3) Documentação do Modelo utilizando Word2Vec
 
