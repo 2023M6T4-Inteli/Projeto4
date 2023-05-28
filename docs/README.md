@@ -84,7 +84,9 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 3) Documentação do Modelo utilizando Word2Vec
 
-Preencher conforme a descrição do artefato na Adalove.
+O word2vec é um modelo de aprendizado de máquina utilizado para representar palavras como vetores em um espaço vetorial de alta dimensão. No presente projeto, o word2vec foi empregado em conjunto com a biblioteca gensim para transformar as palavras em vetores. O modelo foi treinado utilizando as palavras contidas na base de dados disponível, e posteriormente aplicado às frases processadas. Durante esse processo, o modelo captura os vetores correspondentes a cada palavra presente na frase e os soma. Os primeiros 50 vetores resultantes são então armazenados em colunas específicas, o que proporciona uma representação compacta e numérica das frases, tornando-as adequadas para análises e tarefas de aprendizado de máquina.
+
+Essa abordagem baseada no word2vec e na biblioteca gensim possibilitou a obtenção de representações vetoriais para as palavras, as quais foram aplicadas às frases processadas. Ao realizar a soma dos vetores das palavras em cada frase, obtemos uma representação geral da mesma. Essa representação compacta é armazenada nas colunas criadas para esse propósito, permitindo uma análise mais eficiente e possibilitando a utilização dos primeiros 50 vetores resultantes em tarefas subsequentes. Com essa abordagem, é possível explorar as relações semânticas e contextuais entre as palavras, obtendo insights valiosos a partir das frases contidas em nosso banco de dados.
 
 ## (Sprint 4) Proposta de uma nova modelagem utilizando novas features (IPYNB)
 
