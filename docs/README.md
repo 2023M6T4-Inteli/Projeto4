@@ -140,6 +140,22 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 Preencher conforme a descrição do artefato na Adalove.
 
+Também foi realizado uma prototipagem da interface visual (darshboard) no Figma. É possível acessá-la no link a seguir:
+
+https://www.figma.com/file/LDHmzOUuwnzw0vU3GwguaQ/Untitled?type=design&node-id=0%3A1&t=NR6Dhc0ubyPg7zAn-1
+
+![1685723491170](image/README/1685723491170.png)
+
+A interface foi projetada pensando nos seguintes pontos:
+
+* Analisar um único post: assim, colocando o link do post (webscrapping), será possível ter uma análise detalhada dos sentimentos daquela campanha;
+* Top 10 palavras: foi um ponto positivo de feedback da review com o stakeholder, que optou-se por implementar também na interface como mais um insight a ser obtido;
+* Nuvem de palavras: para uma visão mais ampla do post, é possível ver todas as palavras comentadas, além das Top 10;
+* Top perfis engajados: seguindo a própria interface já existente do stakeholder, optou-se por manter essa funcionalidade com o intúito de oferecer mais insights sobre o público, quem mais engaja, positiva ou negativamente e
+* Sentimento: com um gráfico que mostra a parcela de sentimentos dos comentários e dá destaque aos negativos, que devem ser tratados, mas também aponta o principal sentimento percebido naquela campanha e a quantidade de comentários do post analisado.
+
+Esse design permite sua adaptação para demais redes sociais, visto que as análises não seguem um padrão específico de uma única rede, permitindo sua versatilidade.
+
 ## (Sprint 5) Apresentação Final
 
 Colocar o link do artefato (deve estar na pasta apresentacoes do repositório do projeto).
