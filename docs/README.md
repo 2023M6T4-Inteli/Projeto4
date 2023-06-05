@@ -138,7 +138,10 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 4) Documentação da proposta de uma nova modelagem
 
-Preencher conforme a descrição do artefato na Adalove.
+Nessa Sprint, foram ajustados pontos do pré-processamento, com o fim de otimizar os resultados obtidos com os modelos de processamento de linguagem natural obtidos na Sprint anterior, analisar e comparar diferentes métricas destes, além de testar novas modelagens, tanto aplicando Bag of Words, quando Word2Vec. Por fim, foi feita a prototipação da interface visual (dashboard) que será implementada na próxima Sprint.
+
+### Ajustes do pré processamento
+
 
 Também foi realizado uma prototipagem da interface visual (darshboard) no Figma. É possível acessá-la no link a seguir:
 
