@@ -144,7 +144,7 @@ Nessa Sprint, foram ajustados pontos do pré-processamento, com o fim de otimiza
 
 Após as análises inciais dos dados, foi constatado um alto número de dados classificados como neutros, principalmente os que possuem apenas emojis. Portanto, foi feita uma reclassificação à mão dos dados, em que -1 eram negativos, 0, neutros e 1, positivos. Após essa reclassificação, foi utilizada a nova base nos modelos Naive Bayes e Random Forest para Bag of Words e Naive Bayes, CatBoost e Rede Neural para Word2Vec. Os resultados dos modelos são explicitados na seção de comparação de modelos.
 
-No processo de reclassificação do target, percebeu-se a alta exclusão de palavras importantes para o modelo, como 'sim', 'muito', 'excelente', devido o uso da biblioteca de stopwords e, portanto, optou-se por deixar de usar a biblioteca do NLTK e utilizar um dicionário manual de stop words. 
+No processo de reclassificação do target, percebeu-se a alta exclusão de palavras importantes para o modelo, como 'sim', 'muito', 'excelente', devido o uso da biblioteca de stopwords e, portanto, optou-se por deixar de usar a biblioteca do NLTK e utilizar um dicionário manual de stop words, além do dicionário de emojis que foi personalizado e leva em consideração todos os emojis relevantes para a base de dados. 
 
 ### Modelos
 
