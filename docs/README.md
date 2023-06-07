@@ -148,6 +148,8 @@ No processo de reclassificação do target, percebeu-se a alta exclusão de pala
 
 ### Modelos
 
+1. O CatBoost é uma biblioteca de gradient boosting que lida eficientemente com dados categóricos. Ele oferece uma implementação de alta performance, eliminando a necessidade de pré-processamento adicional. Com recursos como tratamento de valores ausentes e otimização automática de hiperparâmetros, é amplamente utilizado em problemas de classificação e regressão. Sua capacidade de lidar diretamente com dados categóricos e a interpretabilidade proporcionada pela análise de características importantes o tornam uma ferramenta poderosa para análise e previsão de dados.O modelo que utilizou o CBOW obteve uma acurácia de 60% e com o corpus foi também de 60%.
+
 ### Métricas e comparações
 
 Também foi realizado uma prototipagem da interface visual (darshboard) no Figma. É possível acessá-la no link a seguir:
